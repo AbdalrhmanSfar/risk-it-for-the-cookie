@@ -18,9 +18,10 @@ public class LogicScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        if (health <= 0) {
+            // Game Over Screen
+        }
     }
 
     public void TakeDamage(float amount)

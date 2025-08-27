@@ -6,6 +6,8 @@ public class robotScript : MonoBehaviour
     public float normalMove = 3;
     public float jumpHeight = 5;
     private bool ifDash = false;
+    public LogicScript logic;
+    private bool alive = true; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,31 +16,38 @@ public class robotScript : MonoBehaviour
 
     // Update is called once per frame
     void Update() {
+        if (logic.health <= 0) alive = false; ;
         if (rigidBody.linearVelocity.x < 14 && rigidBody.linearVelocity.x > -14 && ifDash) {
             rigidBody.linearVelocity = new Vector3(0, 0, 0);
             ifDash = false;
         }
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
+        if ((Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) && alive) {
             rigidBody.linearVelocity = Vector3.left * normalMove;
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
-        if (Input.GetKeyDown(KeyCode.D)||Input.GetKeyDown(KeyCode.RightArrow)) {
+        if ((Input.GetKeyDown(KeyCode.D)||Input.GetKeyDown(KeyCode.RightArrow)) && alive) {
             rigidBody.linearVelocity = Vector3.right * normalMove;
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
-        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y < -2.8 ) {
+        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y < -2.7 && alive) {
             rigidBody.linearVelocity = Vector3.up * jumpHeight; 
         }
         // dashing 
-        if (Input.GetKeyDown(KeyCode.Z)) {
-            rigidBody.linearVelocity = Vector3.left * normalMove * 5;
+        if (Input.GetKeyDown(KeyCode.Z) && alive) {
+            rigidBody.linearVelocity = Vector3.left * 3 * 5;
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             ifDash = true;
         }
-        if (Input.GetKeyDown(KeyCode.C)) {
-            rigidBody.linearVelocity = Vector3.right * normalMove * 5;
+        if (Input.GetKeyDown(KeyCode.C) && alive) {
+            rigidBody.linearVelocity = Vector3.right * 3 * 5;
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
             ifDash = true;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("fallingThingy")) {
+            logic.health -= 15;   
         }
     }
 }
