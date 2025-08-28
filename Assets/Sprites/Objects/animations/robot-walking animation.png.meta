@@ -183,9 +183,9 @@ TextureImporter:
       name: robot-walking animation_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 48
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -205,9 +205,9 @@ TextureImporter:
       name: robot-walking animation_1
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 0
-        width: 47
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -227,10 +227,10 @@ TextureImporter:
       name: robot-walking animation_2
       rect:
         serializedVersion: 2
-        x: 135
-        y: 10
-        width: 46
-        height: 54
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: robot-walking animation_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 9
-        width: 46
-        height: 55
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: robot-walking animation_4
       rect:
         serializedVersion: 2
-        x: 263
-        y: 19
-        width: 46
-        height: 44
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,9 +293,9 @@ TextureImporter:
       name: robot-walking animation_5
       rect:
         serializedVersion: 2
-        x: 329
+        x: 320
         y: 0
-        width: 43
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,9 +315,9 @@ TextureImporter:
       name: robot-walking animation_6
       rect:
         serializedVersion: 2
-        x: 391
+        x: 384
         y: 0
-        width: 46
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: robot-walking animation_7
       rect:
         serializedVersion: 2
-        x: 454
-        y: 48
-        width: 13
-        height: 12
+        x: 448
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,253 +355,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_8
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 0
-        width: 37
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3399d27997d8ea900800000000000000
-      internalID: 697650545655912755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_9
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 0
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b206b8a41167bb70800000000000000
-      internalID: 8914700728760926896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_10
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 18
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 738d39e7b292a1f10800000000000000
-      internalID: 2241149031354193975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_11
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 0
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cd8ca74ddf972bf0800000000000000
-      internalID: -349134673358844472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_12
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba260b2392c11b960800000000000000
-      internalID: 7615899408129876651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_13
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 0
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0476778f222d23620800000000000000
-      internalID: 2752493369916090176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_14
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 0
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47be8d1d5a407a0a0800000000000000
-      internalID: -6870517596293633164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_15
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 0
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887b6fefcd7f286d0800000000000000
-      internalID: -2989554674078140536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_16
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 0
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 769eef86a3246b800800000000000000
-      internalID: 627762016701835623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_17
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 0
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf4b546eb7ff449e0800000000000000
-      internalID: -1637903456846629636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: robot-walking animation_18
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 2
-        width: 17
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e6fc7fb1f4b29fe0800000000000000
-      internalID: -1183684801652263197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 82d84604d189c1144af7448b4de86091
     internalID: 0
     vertices: []
     indices: 
@@ -609,27 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       robot-walking animation_0: 6566802098005181756
       robot-walking animation_1: -1109591407258657731
-      robot-walking animation_10: 2241149031354193975
-      robot-walking animation_11: -349134673358844472
-      robot-walking animation_12: 7615899408129876651
-      robot-walking animation_13: 2752493369916090176
-      robot-walking animation_14: -6870517596293633164
-      robot-walking animation_15: -2989554674078140536
-      robot-walking animation_16: 627762016701835623
-      robot-walking animation_17: -1637903456846629636
-      robot-walking animation_18: -1183684801652263197
       robot-walking animation_2: 4397231842494539271
       robot-walking animation_3: -3476898060486218149
       robot-walking animation_4: -3960724351401627468
       robot-walking animation_5: 149370000422171923
       robot-walking animation_6: 1618630868524205240
       robot-walking animation_7: -5524021636487612148
-      robot-walking animation_8: 697650545655912755
-      robot-walking animation_9: 8914700728760926896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

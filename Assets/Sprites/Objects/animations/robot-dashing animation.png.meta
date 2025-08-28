@@ -1,103 +1,49 @@
 fileFormatVersion: 2
-guid: b42f9031ee139854f8509fd2c835b834
+guid: 6524141abcf5de4429e95b5f7a19e464
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8068791841024027074
-    second: robot-idle animation_0
+      213: -6978609663033965552
+    second: dashing-animation_0
   - first:
-      213: -4769084694470744860
-    second: robot-idle animation_1
+      213: -9219220095962396625
+    second: dashing-animation_1
   - first:
-      213: 4823201279754113183
-    second: robot-idle animation_2
+      213: -6959915378464255517
+    second: dashing-animation_2
   - first:
-      213: -694900389748970891
-    second: robot-idle animation_3
+      213: -8063967140906695198
+    second: dashing-animation_3
   - first:
-      213: 2697402497312070416
-    second: robot-idle animation_4
+      213: 4110479018195155809
+    second: dashing-animation_4
   - first:
-      213: -6446317500951947468
-    second: robot-idle animation_5
+      213: 3446751417411157580
+    second: dashing-animation_5
   - first:
-      213: -3713113593307596963
-    second: robot-idle animation_6
+      213: 5346906672824559047
+    second: dashing-animation_6
   - first:
-      213: 4464013176638719241
-    second: robot-idle animation_7
+      213: 3107253789750739713
+    second: dashing-animation_7
   - first:
-      213: 1698737585522107593
-    second: robot-idle animation_8
+      213: -3860301019107888675
+    second: dashing-animation_8
   - first:
-      213: -6135923154228995421
-    second: robot-idle animation_9
+      213: -3886415568834152217
+    second: dashing-animation_9
   - first:
-      213: -5428569660986964001
-    second: robot-idle animation_10
+      213: -3184146332059189431
+    second: dashing-animation_10
   - first:
-      213: -6928868252941624464
-    second: robot-idle animation_11
+      213: -8363915658715732538
+    second: dashing-animation_11
   - first:
-      213: 5900293239790181728
-    second: robot-idle animation_12
+      213: 430825444269183128
+    second: dashing-animation_12
   - first:
-      213: -7244492131535151108
-    second: robot-idle animation_13
-  - first:
-      213: -8711145227511845654
-    second: robot-idle animation_14
-  - first:
-      213: -8138728706179446112
-    second: robot-idle animation_15
-  - first:
-      213: -4746516833801783231
-    second: robot-idle animation_16
-  - first:
-      213: 4291954061752107345
-    second: robot-idle animation_17
-  - first:
-      213: 8662286843394632046
-    second: robot-idle animation_18
-  - first:
-      213: 6106437518709678071
-    second: robot-idle animation_19
-  - first:
-      213: -550231237871877213
-    second: robot-idle animation_20
-  - first:
-      213: 4906642221110913586
-    second: robot-idle animation_21
-  - first:
-      213: -5152972991480394051
-    second: robot-idle animation_22
-  - first:
-      213: 3317899451836496742
-    second: robot-idle animation_23
-  - first:
-      213: -5204243094171593479
-    second: robot-idle animation_24
-  - first:
-      213: 5638401767474056149
-    second: robot-idle animation_25
-  - first:
-      213: 2072099627931431307
-    second: robot-idle animation_26
-  - first:
-      213: 8705497117698305209
-    second: robot-idle animation_27
-  - first:
-      213: -8267131932671706259
-    second: robot-idle animation_28
-  - first:
-      213: -6234500200417679948
-    second: robot-idle animation_29
-  - first:
-      213: -16372525194254663
-    second: robot-idle animation_30
-  - first:
-      213: 1275605678619728561
-    second: robot-idle animation_31
+      213: 6889733240657756867
+    second: dashing-animation_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -219,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robot-idle animation_0
+      name: robot-dashing animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -232,16 +178,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c9aecadd6b1aff60800000000000000
-      internalID: 8068791841024027074
+      spriteID: fc44dac40bfd7a64c81d3a8fa2b64ab8
+      internalID: -1306002187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_1
+      name: robot-dashing animation_1
       rect:
         serializedVersion: 2
         x: 64
@@ -254,16 +200,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4e4a152fcbec0ddb0800000000000000
-      internalID: -4769084694470744860
+      spriteID: da900eafc0fda4a4e8a369e84899e200
+      internalID: -392825529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_2
+      name: robot-dashing animation_2
       rect:
         serializedVersion: 2
         x: 128
@@ -276,16 +222,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9014ff62047fe240800000000000000
-      internalID: 4823201279754113183
+      spriteID: fe08005ae68329d4f9547582a32fabc8
+      internalID: -390309180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_3
+      name: robot-dashing animation_3
       rect:
         serializedVersion: 2
         x: 192
@@ -298,16 +244,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 57a6bbaf6c73b56f0800000000000000
-      internalID: -694900389748970891
+      spriteID: c5f593aad4a54304f91a863dec495a18
+      internalID: -259328508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_4
+      name: robot-dashing animation_4
       rect:
         serializedVersion: 2
         x: 256
@@ -320,16 +266,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 01b9984a7491f6520800000000000000
-      internalID: 2697402497312070416
+      spriteID: c42df0f49a4b5a14ab98bebadcb1b9fb
+      internalID: 1696290818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_5
+      name: robot-dashing animation_5
       rect:
         serializedVersion: 2
         x: 320
@@ -342,16 +288,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 437106e03641a86a0800000000000000
-      internalID: -6446317500951947468
+      spriteID: 40f55b96bfd6d5245910fd2b006cce85
+      internalID: -1896105314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_6
+      name: robot-dashing animation_6
       rect:
         serializedVersion: 2
         x: 384
@@ -364,16 +310,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d57f93c1cde587cc0800000000000000
-      internalID: -3713113593307596963
+      spriteID: 0b5161708775f094aad18da7b98ba342
+      internalID: -1055950911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_7
+      name: robot-dashing animation_7
       rect:
         serializedVersion: 2
         x: 448
@@ -386,10 +332,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 905c632355c53fd30800000000000000
-      internalID: 4464013176638719241
+      spriteID: 51a1487d966c928428531115d3fece32
+      internalID: 1895164527
       vertices: []
       indices: 
       edges: []
@@ -398,7 +344,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c8d1c9e8f25ae94d91930d90c947ad4
+    spriteID: dd3388c3fd2236d48a6431f4e57c285e
     internalID: 0
     vertices: []
     indices: 
@@ -410,14 +356,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      robot-idle animation_0: 8068791841024027074
-      robot-idle animation_1: -4769084694470744860
-      robot-idle animation_2: 4823201279754113183
-      robot-idle animation_3: -694900389748970891
-      robot-idle animation_4: 2697402497312070416
-      robot-idle animation_5: -6446317500951947468
-      robot-idle animation_6: -3713113593307596963
-      robot-idle animation_7: 4464013176638719241
+      robot-dashing animation_0: -1306002187
+      robot-dashing animation_1: -392825529
+      robot-dashing animation_2: -390309180
+      robot-dashing animation_3: -259328508
+      robot-dashing animation_4: 1696290818
+      robot-dashing animation_5: -1896105314
+      robot-dashing animation_6: -1055950911
+      robot-dashing animation_7: 1895164527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

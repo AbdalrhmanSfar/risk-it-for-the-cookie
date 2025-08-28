@@ -252,232 +252,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: starting-animation_0
+      name: robot-starting animation_0
       rect:
         serializedVersion: 2
-        x: 1348
+        x: 0
         y: 0
-        width: 46
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1eaa8cb9fffd1100800000000000000
-      internalID: 80501816437681691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_1
-      rect:
-        serializedVersion: 2
-        x: 1383
-        y: 38
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e65fd84304b25530800000000000000
-      internalID: 3842331358300952296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_2
-      rect:
-        serializedVersion: 2
-        x: 1414
-        y: 32
-        width: 44
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1d0edda73701af900800000000000000
-      internalID: 718905178687660241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_3
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 4
-        width: 36
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b76dec08d85d3e6c0800000000000000
-      internalID: -4115210830758357381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_4
-      rect:
-        serializedVersion: 2
-        x: 1476
-        y: 4
-        width: 58
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78431d699472ee400800000000000000
-      internalID: 355264617625236615
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_5
-      rect:
-        serializedVersion: 2
-        x: 1540
-        y: 15
-        width: 45
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d335b139233b1660800000000000000
-      internalID: 7357530668260471762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_6
-      rect:
-        serializedVersion: 2
-        x: 1604
-        y: 36
-        width: 44
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0782c196b367bf1b0800000000000000
-      internalID: -5621769712303331216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_7
-      rect:
-        serializedVersion: 2
-        x: 1668
-        y: 35
-        width: 44
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c77af3c3c2c7df70800000000000000
-      internalID: 9212045708872021960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_8
-      rect:
-        serializedVersion: 2
-        x: 1732
-        y: 0
-        width: 46
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5133642d2f77c8d20800000000000000
-      internalID: 3282130113239855893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_9
-      rect:
-        serializedVersion: 2
-        x: 1796
-        y: 0
-        width: 46
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf5ea8ffa0027e450800000000000000
-      internalID: 6117893850415162875
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_10
-      rect:
-        serializedVersion: 2
-        x: 1860
-        y: 0
-        width: 46
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -485,714 +265,648 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47a4962f3352557d0800000000000000
-      internalID: -2930395077494093196
+      spriteID: 925d127ed33d79c49a17d7d1341a810b
+      internalID: -55008146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_11
+      name: robot-starting animation_1
       rect:
         serializedVersion: 2
-        x: 905
+        x: 64
         y: 0
-        width: 40
-        height: 26
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 39d4a049e2006e010800000000000000
-      internalID: 1217660949302496659
+      spriteID: 1780470a74195f94098c177de661f341
+      internalID: 2145842260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_12
+      name: robot-starting animation_2
       rect:
         serializedVersion: 2
-        x: 969
+        x: 128
         y: 0
-        width: 40
-        height: 26
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc6913311fdf977b0800000000000000
-      internalID: -5225866680735787315
+      spriteID: 3a55aa9a931256141b212be87bf3d4ed
+      internalID: 523472476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_13
+      name: robot-starting animation_3
       rect:
         serializedVersion: 2
-        x: 1033
+        x: 192
         y: 0
-        width: 41
-        height: 26
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4d418e7a980636d40800000000000000
-      internalID: 5576406907958596820
+      spriteID: 6ac09c25f36646c498ddbf59f06cd1cf
+      internalID: -1659549173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_14
+      name: robot-starting animation_4
       rect:
         serializedVersion: 2
-        x: 1093
+        x: 256
         y: 0
-        width: 44
-        height: 27
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1c91e2d4d916640c0800000000000000
-      internalID: -4591875441825015359
+      spriteID: 526f3b7a69cbf824fa6ba48200ea0631
+      internalID: 1891006548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_15
+      name: robot-starting animation_5
       rect:
         serializedVersion: 2
-        x: 1157
+        x: 320
         y: 0
-        width: 44
-        height: 27
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b8f15b5417412ea0800000000000000
-      internalID: -5899355884121622348
+      spriteID: 6f5d45c97a31e2a4984fb78c8d6f298a
+      internalID: -528704188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_16
+      name: robot-starting animation_6
       rect:
         serializedVersion: 2
-        x: 1222
+        x: 384
         y: 0
-        width: 44
-        height: 28
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 700c75f6bd56797e0800000000000000
-      internalID: -1758825136324624377
+      spriteID: 49feebe10ff60ab45936a4e2f079f42a
+      internalID: -2027434190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_17
+      name: robot-starting animation_7
       rect:
         serializedVersion: 2
-        x: 1286
+        x: 448
         y: 0
-        width: 46
-        height: 34
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 389fd7b25d5b8d460800000000000000
-      internalID: 7266757925924632963
+      spriteID: 14561f331f95f0f47a8b848eac0a9d7c
+      internalID: -1161681179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_18
+      name: robot-starting animation_8
       rect:
         serializedVersion: 2
-        x: 1329
-        y: 25
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f22c3bcc84685a860800000000000000
-      internalID: 7540580798331863599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_19
-      rect:
-        serializedVersion: 2
-        x: 1614
-        y: 16
-        width: 33
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96020aac5edd48870800000000000000
-      internalID: 8684309960493899881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_20
-      rect:
-        serializedVersion: 2
-        x: 1676
-        y: 23
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0267d3d689c598fc0800000000000000
-      internalID: -3492158226311580128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_21
-      rect:
-        serializedVersion: 2
-        x: 1679
-        y: 15
-        width: 36
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a58eb423f3611aab0800000000000000
-      internalID: -4998689650721953702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_22
-      rect:
-        serializedVersion: 2
-        x: 14
+        x: 512
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b00f3a52f5b7f740800000000000000
-      internalID: 5185813548441206966
+      spriteID: 2162a2cb9699a574991ce7163b7f9179
+      internalID: 969789205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_23
+      name: robot-starting animation_9
       rect:
         serializedVersion: 2
-        x: 78
+        x: 576
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a8621d6e59a4e050800000000000000
-      internalID: 5828970040746207399
+      spriteID: 304f343388ff232429e14a939d0f6d07
+      internalID: 1924942052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_24
+      name: robot-starting animation_10
       rect:
         serializedVersion: 2
-        x: 142
+        x: 640
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09c638e2c347958c0800000000000000
-      internalID: -4010046191369491312
+      spriteID: 81589d9b81ef62f488c7e0f473d6cf9c
+      internalID: 1307386431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_25
+      name: robot-starting animation_11
       rect:
         serializedVersion: 2
-        x: 206
+        x: 704
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cee2293e553604f50800000000000000
-      internalID: 6863595052654014188
+      spriteID: e14a5fca6f13b8d4e88213497200a174
+      internalID: 681368577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_26
+      name: robot-starting animation_12
       rect:
         serializedVersion: 2
-        x: 270
+        x: 768
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e2183f5b8960b0e0800000000000000
-      internalID: -2256187365993737498
+      spriteID: 4d77e7fbb963c4c489e43614b0e0bbd4
+      internalID: 814932676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_27
+      name: robot-starting animation_13
       rect:
         serializedVersion: 2
-        x: 334
+        x: 832
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ecdf710081128c600800000000000000
-      internalID: 488676946534202830
+      spriteID: 32c362a996087b74697c90702ebc9624
+      internalID: 704388130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_28
+      name: robot-starting animation_14
       rect:
         serializedVersion: 2
-        x: 398
+        x: 896
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 781fc5adee5f64d20800000000000000
-      internalID: 3262565386291048839
+      spriteID: ac9f3c00043c5e040ada57701400a9aa
+      internalID: -541704909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_29
+      name: robot-starting animation_15
       rect:
         serializedVersion: 2
-        x: 462
+        x: 960
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2186cd1ffbc4b5b60800000000000000
-      internalID: 7735861172219176978
+      spriteID: b787b8724393c5246990f22260fe2091
+      internalID: 1701024451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_30
+      name: robot-starting animation_16
       rect:
         serializedVersion: 2
-        x: 526
+        x: 1024
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 471a8b94bd5383260800000000000000
-      internalID: 7077466030363681140
+      spriteID: 79f187cb2df15f44faf0e14b9e1b1373
+      internalID: 882253035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_31
+      name: robot-starting animation_17
       rect:
         serializedVersion: 2
-        x: 590
+        x: 1088
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 36061eae8af703610800000000000000
-      internalID: 1598918231188398179
+      spriteID: 7050cbde741f6bd4ca2a1cb7200ff1b1
+      internalID: -309804990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_32
+      name: robot-starting animation_18
       rect:
         serializedVersion: 2
-        x: 654
+        x: 1152
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bde002a0946cd8b90800000000000000
-      internalID: -7237911009109733669
+      spriteID: 5171ec076dc032248b4a96179881fa4a
+      internalID: -1154720434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_33
+      name: robot-starting animation_19
       rect:
         serializedVersion: 2
-        x: 718
+        x: 1216
         y: 0
-        width: 35
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cd1577aaa68f71480800000000000000
-      internalID: -8928394599228550692
+      spriteID: f14e8735db47ad8478c7e65e458c20d2
+      internalID: -1341898039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_34
+      name: robot-starting animation_20
       rect:
         serializedVersion: 2
-        x: 781
+        x: 1280
         y: 0
-        width: 36
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 115082ec02d3fa380800000000000000
-      internalID: -8957873922709650159
+      spriteID: 3fe02a68939fd744292bef716c5831b4
+      internalID: -1835210894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_35
+      name: robot-starting animation_21
       rect:
         serializedVersion: 2
-        x: 842
+        x: 1344
         y: 0
-        width: 39
-        height: 23
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0ae5ea134123b5c0800000000000000
-      internalID: -4200977455308740081
+      spriteID: b49bb7efa55fdbb45a59c6a8685f9b5d
+      internalID: -1351389150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_36
+      name: robot-starting animation_22
       rect:
         serializedVersion: 2
-        x: 1391
+        x: 1408
         y: 0
-        width: 12
-        height: 9
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 31c13f295d7d4b900800000000000000
-      internalID: 699421154442681363
+      spriteID: 4106f5c0caaa29d42a266b3345351e61
+      internalID: 1138909046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_37
+      name: robot-starting animation_23
       rect:
         serializedVersion: 2
-        x: 1414
-        y: 3
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed8451ac2b26416c0800000000000000
-      internalID: -4173602434631513890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: starting-animation_38
-      rect:
-        serializedVersion: 2
-        x: 1475
+        x: 1472
         y: 0
-        width: 40
-        height: 22
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 11233a7635dda1250800000000000000
-      internalID: 5916284410795340305
+      spriteID: 1862c543556713b42bf067c2c5227761
+      internalID: 530740766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_39
+      name: robot-starting animation_24
       rect:
         serializedVersion: 2
-        x: 1549
-        y: 9
-        width: 10
-        height: 8
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed6ce27bbc18f4f30800000000000000
-      internalID: 4562007659501242078
+      spriteID: 16a783df5aaec1c489e190c2b0ff0183
+      internalID: 573168123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_40
+      name: robot-starting animation_25
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 6
-        width: 11
-        height: 11
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 14f6167ac874f7a60800000000000000
-      internalID: 7673930959491788609
+      spriteID: 51c4dd28b35a9e64588cca23454e9af6
+      internalID: 245093423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_41
+      name: robot-starting animation_26
       rect:
         serializedVersion: 2
-        x: 1616
-        y: 2
-        width: 29
-        height: 15
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1124a261642b71e0800000000000000
-      internalID: -2199123992355004133
+      spriteID: eb588cd384f0df3478a7a23ecb697719
+      internalID: -2003644063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: starting-animation_42
+      name: robot-starting animation_27
       rect:
         serializedVersion: 2
-        x: 1680
-        y: 1
-        width: 29
-        height: 15
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ae97020d22982d750800000000000000
-      internalID: 6328271209022650858
+      spriteID: 46e8864ef14c7414398c7600b227f230
+      internalID: -45473337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-starting animation_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc3a3b34159e214f87bcb31d6e84fe1
+      internalID: 861341970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-starting animation_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c8b65220d481241b7ad3850d7c0fa6
+      internalID: 189076266
       vertices: []
       indices: 
       edges: []
@@ -1201,7 +915,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 55ed9507ea39f8545972a2aa3f78c828
     internalID: 0
     vertices: []
     indices: 
@@ -1209,51 +923,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      starting-animation_0: 80501816437681691
-      starting-animation_1: 3842331358300952296
-      starting-animation_10: -2930395077494093196
-      starting-animation_11: 1217660949302496659
-      starting-animation_12: -5225866680735787315
-      starting-animation_13: 5576406907958596820
-      starting-animation_14: -4591875441825015359
-      starting-animation_15: -5899355884121622348
-      starting-animation_16: -1758825136324624377
-      starting-animation_17: 7266757925924632963
-      starting-animation_18: 7540580798331863599
-      starting-animation_19: 8684309960493899881
-      starting-animation_2: 718905178687660241
-      starting-animation_20: -3492158226311580128
-      starting-animation_21: -4998689650721953702
-      starting-animation_22: 5185813548441206966
-      starting-animation_23: 5828970040746207399
-      starting-animation_24: -4010046191369491312
-      starting-animation_25: 6863595052654014188
-      starting-animation_26: -2256187365993737498
-      starting-animation_27: 488676946534202830
-      starting-animation_28: 3262565386291048839
-      starting-animation_29: 7735861172219176978
-      starting-animation_3: -4115210830758357381
-      starting-animation_30: 7077466030363681140
-      starting-animation_31: 1598918231188398179
-      starting-animation_32: -7237911009109733669
-      starting-animation_33: -8928394599228550692
-      starting-animation_34: -8957873922709650159
-      starting-animation_35: -4200977455308740081
-      starting-animation_36: 699421154442681363
-      starting-animation_37: -4173602434631513890
-      starting-animation_38: 5916284410795340305
-      starting-animation_39: 4562007659501242078
-      starting-animation_4: 355264617625236615
-      starting-animation_40: 7673930959491788609
-      starting-animation_41: -2199123992355004133
-      starting-animation_42: 6328271209022650858
-      starting-animation_5: 7357530668260471762
-      starting-animation_6: -5621769712303331216
-      starting-animation_7: 9212045708872021960
-      starting-animation_8: 3282130113239855893
-      starting-animation_9: 6117893850415162875
+      robot-starting animation_0: -55008146
+      robot-starting animation_1: 2145842260
+      robot-starting animation_10: 1307386431
+      robot-starting animation_11: 681368577
+      robot-starting animation_12: 814932676
+      robot-starting animation_13: 704388130
+      robot-starting animation_14: -541704909
+      robot-starting animation_15: 1701024451
+      robot-starting animation_16: 882253035
+      robot-starting animation_17: -309804990
+      robot-starting animation_18: -1154720434
+      robot-starting animation_19: -1341898039
+      robot-starting animation_2: 523472476
+      robot-starting animation_20: -1835210894
+      robot-starting animation_21: -1351389150
+      robot-starting animation_22: 1138909046
+      robot-starting animation_23: 530740766
+      robot-starting animation_24: 573168123
+      robot-starting animation_25: 245093423
+      robot-starting animation_26: -2003644063
+      robot-starting animation_27: -45473337
+      robot-starting animation_28: 861341970
+      robot-starting animation_29: 189076266
+      robot-starting animation_3: -1659549173
+      robot-starting animation_4: 1891006548
+      robot-starting animation_5: -528704188
+      robot-starting animation_6: -2027434190
+      robot-starting animation_7: -1161681179
+      robot-starting animation_8: 969789205
+      robot-starting animation_9: 1924942052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

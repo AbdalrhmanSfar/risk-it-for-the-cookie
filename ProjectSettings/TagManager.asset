@@ -6,8 +6,10 @@ TagManager:
   tags:
   - Health
   - Logic
-  - fallingThingy
   - terrain
+  - Malware
+  - Cookie
+  - Energy
   layers:
   - Default
   - TransparentFX

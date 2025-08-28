@@ -1,103 +1,115 @@
 fileFormatVersion: 2
-guid: b42f9031ee139854f8509fd2c835b834
+guid: 87a5c3365b7bac7419d7825c98177018
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8068791841024027074
-    second: robot-idle animation_0
+      213: -3747977643584790465
+    second: losing-animation_0
   - first:
-      213: -4769084694470744860
-    second: robot-idle animation_1
+      213: -1992294202272695460
+    second: losing-animation_1
   - first:
-      213: 4823201279754113183
-    second: robot-idle animation_2
+      213: -3489396253711292194
+    second: losing-animation_2
   - first:
-      213: -694900389748970891
-    second: robot-idle animation_3
+      213: 1567950166366126400
+    second: losing-animation_3
   - first:
-      213: 2697402497312070416
-    second: robot-idle animation_4
+      213: -4811359461158598909
+    second: losing-animation_4
   - first:
-      213: -6446317500951947468
-    second: robot-idle animation_5
+      213: -3165601043123001948
+    second: losing-animation_5
   - first:
-      213: -3713113593307596963
-    second: robot-idle animation_6
+      213: 3531087133256015163
+    second: losing-animation_6
   - first:
-      213: 4464013176638719241
-    second: robot-idle animation_7
+      213: -2738063432431032059
+    second: losing-animation_7
   - first:
-      213: 1698737585522107593
-    second: robot-idle animation_8
+      213: 4262388977088243075
+    second: losing-animation_8
   - first:
-      213: -6135923154228995421
-    second: robot-idle animation_9
+      213: 44033183389137765
+    second: losing-animation_9
   - first:
-      213: -5428569660986964001
-    second: robot-idle animation_10
+      213: 3232398702321409500
+    second: losing-animation_10
   - first:
-      213: -6928868252941624464
-    second: robot-idle animation_11
+      213: -2291659708164293437
+    second: losing-animation_11
   - first:
-      213: 5900293239790181728
-    second: robot-idle animation_12
+      213: -2432851944348896372
+    second: losing-animation_12
   - first:
-      213: -7244492131535151108
-    second: robot-idle animation_13
+      213: 8003558660502924584
+    second: losing-animation_13
   - first:
-      213: -8711145227511845654
-    second: robot-idle animation_14
+      213: 7505852430343362798
+    second: losing-animation_14
   - first:
-      213: -8138728706179446112
-    second: robot-idle animation_15
+      213: -2035344562591756814
+    second: losing-animation_15
   - first:
-      213: -4746516833801783231
-    second: robot-idle animation_16
+      213: 7354153317760568804
+    second: losing-animation_16
   - first:
-      213: 4291954061752107345
-    second: robot-idle animation_17
+      213: -6859292045388536012
+    second: losing-animation_17
   - first:
-      213: 8662286843394632046
-    second: robot-idle animation_18
+      213: 7595192728251400968
+    second: losing-animation_18
   - first:
-      213: 6106437518709678071
-    second: robot-idle animation_19
+      213: -8640320524951079024
+    second: losing-animation_19
   - first:
-      213: -550231237871877213
-    second: robot-idle animation_20
+      213: 3994467162565494138
+    second: losing-animation_20
   - first:
-      213: 4906642221110913586
-    second: robot-idle animation_21
+      213: -1320214121850590429
+    second: losing-animation_21
   - first:
-      213: -5152972991480394051
-    second: robot-idle animation_22
+      213: 1207355586681310941
+    second: losing-animation_22
   - first:
-      213: 3317899451836496742
-    second: robot-idle animation_23
+      213: -7366733235670477383
+    second: losing-animation_23
   - first:
-      213: -5204243094171593479
-    second: robot-idle animation_24
+      213: 5145175999283763563
+    second: losing-animation_24
   - first:
-      213: 5638401767474056149
-    second: robot-idle animation_25
+      213: 3332491833098689101
+    second: losing-animation_25
   - first:
-      213: 2072099627931431307
-    second: robot-idle animation_26
+      213: 4998654032900561981
+    second: losing-animation_26
   - first:
-      213: 8705497117698305209
-    second: robot-idle animation_27
+      213: -8471975823386783314
+    second: losing-animation_27
   - first:
-      213: -8267131932671706259
-    second: robot-idle animation_28
+      213: -6349597549815635332
+    second: losing-animation_28
   - first:
-      213: -6234500200417679948
-    second: robot-idle animation_29
+      213: 4167218119943880311
+    second: losing-animation_29
   - first:
-      213: -16372525194254663
-    second: robot-idle animation_30
+      213: 1954065851510827249
+    second: losing-animation_30
   - first:
-      213: 1275605678619728561
-    second: robot-idle animation_31
+      213: 257371044794776698
+    second: losing-animation_31
+  - first:
+      213: -4565881564026000196
+    second: losing-animation_32
+  - first:
+      213: -3441774716358947868
+    second: losing-animation_33
+  - first:
+      213: -4044494745068024560
+    second: losing-animation_34
+  - first:
+      213: 4293293412522181729
+    second: losing-animation_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -219,7 +231,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: robot-idle animation_0
+      name: losing-animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -234,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9aecadd6b1aff60800000000000000
-      internalID: 8068791841024027074
+      spriteID: f30e508d0328cfbc0800000000000000
+      internalID: -3747977643584790465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_1
+      name: losing-animation_1
       rect:
         serializedVersion: 2
         x: 64
@@ -256,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e4a152fcbec0ddb0800000000000000
-      internalID: -4769084694470744860
+      spriteID: c5b37798af2f954e0800000000000000
+      internalID: -1992294202272695460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_2
+      name: losing-animation_2
       rect:
         serializedVersion: 2
         x: 128
@@ -278,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9014ff62047fe240800000000000000
-      internalID: 4823201279754113183
+      spriteID: ed8a5f8489c239fc0800000000000000
+      internalID: -3489396253711292194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_3
+      name: losing-animation_3
       rect:
         serializedVersion: 2
         x: 192
@@ -300,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57a6bbaf6c73b56f0800000000000000
-      internalID: -694900389748970891
+      spriteID: 04184c37e5a72c510800000000000000
+      internalID: 1567950166366126400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_4
+      name: losing-animation_4
       rect:
         serializedVersion: 2
         x: 256
@@ -322,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01b9984a7491f6520800000000000000
-      internalID: 2697402497312070416
+      spriteID: 3074deecf0e9a3db0800000000000000
+      internalID: -4811359461158598909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_5
+      name: losing-animation_5
       rect:
         serializedVersion: 2
         x: 320
@@ -344,14 +356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 437106e03641a86a0800000000000000
-      internalID: -6446317500951947468
+      spriteID: 4a52c049f968114d0800000000000000
+      internalID: -3165601043123001948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_6
+      name: losing-animation_6
       rect:
         serializedVersion: 2
         x: 384
@@ -366,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d57f93c1cde587cc0800000000000000
-      internalID: -3713113593307596963
+      spriteID: b3d5da80a01f00130800000000000000
+      internalID: 3531087133256015163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: robot-idle animation_7
+      name: losing-animation_7
       rect:
         serializedVersion: 2
         x: 448
@@ -388,8 +400,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 905c632355c53fd30800000000000000
-      internalID: 4464013176638719241
+      spriteID: 5092679a0d1700ad0800000000000000
+      internalID: -2738063432431032059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: losing-animation_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385a2e9013c072b30800000000000000
+      internalID: 4262388977088243075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: losing-animation_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b3d3e62ff6c9000800000000000000
+      internalID: 44033183389137765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: losing-animation_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd1d486e79cbdc20800000000000000
+      internalID: 3232398702321409500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: losing-animation_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccbacc13a36230e0800000000000000
+      internalID: -2291659708164293437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: losing-animation_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8337f1eb06cc3ed0800000000000000
+      internalID: -2432851944348896372
       vertices: []
       indices: 
       edges: []
@@ -398,7 +520,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 1c8d1c9e8f25ae94d91930d90c947ad4
+    spriteID: af365559157618d4596019bbe6373e01
     internalID: 0
     vertices: []
     indices: 
@@ -410,14 +532,19 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      robot-idle animation_0: 8068791841024027074
-      robot-idle animation_1: -4769084694470744860
-      robot-idle animation_2: 4823201279754113183
-      robot-idle animation_3: -694900389748970891
-      robot-idle animation_4: 2697402497312070416
-      robot-idle animation_5: -6446317500951947468
-      robot-idle animation_6: -3713113593307596963
-      robot-idle animation_7: 4464013176638719241
+      losing-animation_0: -3747977643584790465
+      losing-animation_1: -1992294202272695460
+      losing-animation_10: 3232398702321409500
+      losing-animation_11: -2291659708164293437
+      losing-animation_12: -2432851944348896372
+      losing-animation_2: -3489396253711292194
+      losing-animation_3: 1567950166366126400
+      losing-animation_4: -4811359461158598909
+      losing-animation_5: -3165601043123001948
+      losing-animation_6: 3531087133256015163
+      losing-animation_7: -2738063432431032059
+      losing-animation_8: 4262388977088243075
+      losing-animation_9: 44033183389137765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
