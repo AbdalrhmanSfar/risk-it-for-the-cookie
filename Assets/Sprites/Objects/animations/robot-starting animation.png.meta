@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 4481480e8a1357d498215a1213cd6eb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 80501816437681691
+    second: starting-animation_0
+  - first:
+      213: 3842331358300952296
+    second: starting-animation_1
+  - first:
+      213: 718905178687660241
+    second: starting-animation_2
+  - first:
+      213: -4115210830758357381
+    second: starting-animation_3
+  - first:
+      213: 355264617625236615
+    second: starting-animation_4
+  - first:
+      213: 7357530668260471762
+    second: starting-animation_5
+  - first:
+      213: -5621769712303331216
+    second: starting-animation_6
+  - first:
+      213: 9212045708872021960
+    second: starting-animation_7
+  - first:
+      213: 3282130113239855893
+    second: starting-animation_8
+  - first:
+      213: 6117893850415162875
+    second: starting-animation_9
+  - first:
+      213: -2930395077494093196
+    second: starting-animation_10
+  - first:
+      213: 1217660949302496659
+    second: starting-animation_11
+  - first:
+      213: -5225866680735787315
+    second: starting-animation_12
+  - first:
+      213: 5576406907958596820
+    second: starting-animation_13
+  - first:
+      213: -4591875441825015359
+    second: starting-animation_14
+  - first:
+      213: -5899355884121622348
+    second: starting-animation_15
+  - first:
+      213: -1758825136324624377
+    second: starting-animation_16
+  - first:
+      213: 7266757925924632963
+    second: starting-animation_17
+  - first:
+      213: 7540580798331863599
+    second: starting-animation_18
+  - first:
+      213: 8684309960493899881
+    second: starting-animation_19
+  - first:
+      213: -3492158226311580128
+    second: starting-animation_20
+  - first:
+      213: -4998689650721953702
+    second: starting-animation_21
+  - first:
+      213: 5185813548441206966
+    second: starting-animation_22
+  - first:
+      213: 5828970040746207399
+    second: starting-animation_23
+  - first:
+      213: -4010046191369491312
+    second: starting-animation_24
+  - first:
+      213: 6863595052654014188
+    second: starting-animation_25
+  - first:
+      213: -2256187365993737498
+    second: starting-animation_26
+  - first:
+      213: 488676946534202830
+    second: starting-animation_27
+  - first:
+      213: 3262565386291048839
+    second: starting-animation_28
+  - first:
+      213: 7735861172219176978
+    second: starting-animation_29
+  - first:
+      213: 7077466030363681140
+    second: starting-animation_30
+  - first:
+      213: 1598918231188398179
+    second: starting-animation_31
+  - first:
+      213: -7237911009109733669
+    second: starting-animation_32
+  - first:
+      213: -8928394599228550692
+    second: starting-animation_33
+  - first:
+      213: -8957873922709650159
+    second: starting-animation_34
+  - first:
+      213: -4200977455308740081
+    second: starting-animation_35
+  - first:
+      213: 699421154442681363
+    second: starting-animation_36
+  - first:
+      213: -4173602434631513890
+    second: starting-animation_37
+  - first:
+      213: 5916284410795340305
+    second: starting-animation_38
+  - first:
+      213: 4562007659501242078
+    second: starting-animation_39
+  - first:
+      213: 7673930959491788609
+    second: starting-animation_40
+  - first:
+      213: -2199123992355004133
+    second: starting-animation_41
+  - first:
+      213: 6328271209022650858
+    second: starting-animation_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: starting-animation_0
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 0
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eaa8cb9fffd1100800000000000000
+      internalID: 80501816437681691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_1
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 38
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e65fd84304b25530800000000000000
+      internalID: 3842331358300952296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_2
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 32
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0edda73701af900800000000000000
+      internalID: 718905178687660241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_3
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 4
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76dec08d85d3e6c0800000000000000
+      internalID: -4115210830758357381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_4
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 4
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78431d699472ee400800000000000000
+      internalID: 355264617625236615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_5
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 15
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d335b139233b1660800000000000000
+      internalID: 7357530668260471762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_6
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 36
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0782c196b367bf1b0800000000000000
+      internalID: -5621769712303331216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_7
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 35
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c77af3c3c2c7df70800000000000000
+      internalID: 9212045708872021960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_8
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 0
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5133642d2f77c8d20800000000000000
+      internalID: 3282130113239855893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_9
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 0
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5ea8ffa0027e450800000000000000
+      internalID: 6117893850415162875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_10
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a4962f3352557d0800000000000000
+      internalID: -2930395077494093196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_11
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d4a049e2006e010800000000000000
+      internalID: 1217660949302496659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_12
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6913311fdf977b0800000000000000
+      internalID: -5225866680735787315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_13
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 0
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d418e7a980636d40800000000000000
+      internalID: 5576406907958596820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_14
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 0
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c91e2d4d916640c0800000000000000
+      internalID: -4591875441825015359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_15
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 0
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f15b5417412ea0800000000000000
+      internalID: -5899355884121622348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_16
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700c75f6bd56797e0800000000000000
+      internalID: -1758825136324624377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 0
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389fd7b25d5b8d460800000000000000
+      internalID: 7266757925924632963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_18
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 25
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22c3bcc84685a860800000000000000
+      internalID: 7540580798331863599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_19
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 16
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96020aac5edd48870800000000000000
+      internalID: 8684309960493899881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_20
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 23
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0267d3d689c598fc0800000000000000
+      internalID: -3492158226311580128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_21
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 15
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58eb423f3611aab0800000000000000
+      internalID: -4998689650721953702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b00f3a52f5b7f740800000000000000
+      internalID: 5185813548441206966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8621d6e59a4e050800000000000000
+      internalID: 5828970040746207399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_24
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c638e2c347958c0800000000000000
+      internalID: -4010046191369491312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee2293e553604f50800000000000000
+      internalID: 6863595052654014188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_26
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2183f5b8960b0e0800000000000000
+      internalID: -2256187365993737498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_27
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdf710081128c600800000000000000
+      internalID: 488676946534202830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_28
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781fc5adee5f64d20800000000000000
+      internalID: 3262565386291048839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2186cd1ffbc4b5b60800000000000000
+      internalID: 7735861172219176978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_30
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471a8b94bd5383260800000000000000
+      internalID: 7077466030363681140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_31
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36061eae8af703610800000000000000
+      internalID: 1598918231188398179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_32
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde002a0946cd8b90800000000000000
+      internalID: -7237911009109733669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_33
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 0
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1577aaa68f71480800000000000000
+      internalID: -8928394599228550692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_34
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 0
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115082ec02d3fa380800000000000000
+      internalID: -8957873922709650159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_35
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 0
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ae5ea134123b5c0800000000000000
+      internalID: -4200977455308740081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_36
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c13f295d7d4b900800000000000000
+      internalID: 699421154442681363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_37
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8451ac2b26416c0800000000000000
+      internalID: -4173602434631513890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_38
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 0
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11233a7635dda1250800000000000000
+      internalID: 5916284410795340305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_39
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 9
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6ce27bbc18f4f30800000000000000
+      internalID: 4562007659501242078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_40
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 6
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f6167ac874f7a60800000000000000
+      internalID: 7673930959491788609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_41
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1124a261642b71e0800000000000000
+      internalID: -2199123992355004133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starting-animation_42
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae97020d22982d750800000000000000
+      internalID: 6328271209022650858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      starting-animation_0: 80501816437681691
+      starting-animation_1: 3842331358300952296
+      starting-animation_10: -2930395077494093196
+      starting-animation_11: 1217660949302496659
+      starting-animation_12: -5225866680735787315
+      starting-animation_13: 5576406907958596820
+      starting-animation_14: -4591875441825015359
+      starting-animation_15: -5899355884121622348
+      starting-animation_16: -1758825136324624377
+      starting-animation_17: 7266757925924632963
+      starting-animation_18: 7540580798331863599
+      starting-animation_19: 8684309960493899881
+      starting-animation_2: 718905178687660241
+      starting-animation_20: -3492158226311580128
+      starting-animation_21: -4998689650721953702
+      starting-animation_22: 5185813548441206966
+      starting-animation_23: 5828970040746207399
+      starting-animation_24: -4010046191369491312
+      starting-animation_25: 6863595052654014188
+      starting-animation_26: -2256187365993737498
+      starting-animation_27: 488676946534202830
+      starting-animation_28: 3262565386291048839
+      starting-animation_29: 7735861172219176978
+      starting-animation_3: -4115210830758357381
+      starting-animation_30: 7077466030363681140
+      starting-animation_31: 1598918231188398179
+      starting-animation_32: -7237911009109733669
+      starting-animation_33: -8928394599228550692
+      starting-animation_34: -8957873922709650159
+      starting-animation_35: -4200977455308740081
+      starting-animation_36: 699421154442681363
+      starting-animation_37: -4173602434631513890
+      starting-animation_38: 5916284410795340305
+      starting-animation_39: 4562007659501242078
+      starting-animation_4: 355264617625236615
+      starting-animation_40: 7673930959491788609
+      starting-animation_41: -2199123992355004133
+      starting-animation_42: 6328271209022650858
+      starting-animation_5: 7357530668260471762
+      starting-animation_6: -5621769712303331216
+      starting-animation_7: 9212045708872021960
+      starting-animation_8: 3282130113239855893
+      starting-animation_9: 6117893850415162875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

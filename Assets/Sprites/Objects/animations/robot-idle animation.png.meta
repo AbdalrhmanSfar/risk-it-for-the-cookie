@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: b42f9031ee139854f8509fd2c835b834
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8068791841024027074
+    second: robot-idle animation_0
+  - first:
+      213: -4769084694470744860
+    second: robot-idle animation_1
+  - first:
+      213: 4823201279754113183
+    second: robot-idle animation_2
+  - first:
+      213: -694900389748970891
+    second: robot-idle animation_3
+  - first:
+      213: 2697402497312070416
+    second: robot-idle animation_4
+  - first:
+      213: -6446317500951947468
+    second: robot-idle animation_5
+  - first:
+      213: -3713113593307596963
+    second: robot-idle animation_6
+  - first:
+      213: 4464013176638719241
+    second: robot-idle animation_7
+  - first:
+      213: 1698737585522107593
+    second: robot-idle animation_8
+  - first:
+      213: -6135923154228995421
+    second: robot-idle animation_9
+  - first:
+      213: -5428569660986964001
+    second: robot-idle animation_10
+  - first:
+      213: -6928868252941624464
+    second: robot-idle animation_11
+  - first:
+      213: 5900293239790181728
+    second: robot-idle animation_12
+  - first:
+      213: -7244492131535151108
+    second: robot-idle animation_13
+  - first:
+      213: -8711145227511845654
+    second: robot-idle animation_14
+  - first:
+      213: -8138728706179446112
+    second: robot-idle animation_15
+  - first:
+      213: -4746516833801783231
+    second: robot-idle animation_16
+  - first:
+      213: 4291954061752107345
+    second: robot-idle animation_17
+  - first:
+      213: 8662286843394632046
+    second: robot-idle animation_18
+  - first:
+      213: 6106437518709678071
+    second: robot-idle animation_19
+  - first:
+      213: -550231237871877213
+    second: robot-idle animation_20
+  - first:
+      213: 4906642221110913586
+    second: robot-idle animation_21
+  - first:
+      213: -5152972991480394051
+    second: robot-idle animation_22
+  - first:
+      213: 3317899451836496742
+    second: robot-idle animation_23
+  - first:
+      213: -5204243094171593479
+    second: robot-idle animation_24
+  - first:
+      213: 5638401767474056149
+    second: robot-idle animation_25
+  - first:
+      213: 2072099627931431307
+    second: robot-idle animation_26
+  - first:
+      213: 8705497117698305209
+    second: robot-idle animation_27
+  - first:
+      213: -8267131932671706259
+    second: robot-idle animation_28
+  - first:
+      213: -6234500200417679948
+    second: robot-idle animation_29
+  - first:
+      213: -16372525194254663
+    second: robot-idle animation_30
+  - first:
+      213: 1275605678619728561
+    second: robot-idle animation_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: robot-idle animation_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 38
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9aecadd6b1aff60800000000000000
+      internalID: 8068791841024027074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 39
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4a152fcbec0ddb0800000000000000
+      internalID: -4769084694470744860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 39
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9014ff62047fe240800000000000000
+      internalID: 4823201279754113183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 13
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a6bbaf6c73b56f0800000000000000
+      internalID: -694900389748970891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 40
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b9984a7491f6520800000000000000
+      internalID: 2697402497312070416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 13
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437106e03641a86a0800000000000000
+      internalID: -6446317500951947468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 39
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57f93c1cde587cc0800000000000000
+      internalID: -3713113593307596963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_7
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 12
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905c632355c53fd30800000000000000
+      internalID: 4464013176638719241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_8
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 10
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c466af65d0239710800000000000000
+      internalID: 1698737585522107593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_9
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 38
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa16179662d8daa0800000000000000
+      internalID: -6135923154228995421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_10
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 38
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7c866b7a8d9a4b0800000000000000
+      internalID: -5428569660986964001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bdeefd807b7df90800000000000000
+      internalID: -6928868252941624464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 12
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d1554c07d02e150800000000000000
+      internalID: 5900293239790181728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_13
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 13
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff1cb11ac4667b90800000000000000
+      internalID: -7244492131535151108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec2157b19bcb1780800000000000000
+      internalID: -8711145227511845654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa46e0dc5d6d0f80800000000000000
+      internalID: -8138728706179446112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14835d8761cf02eb0800000000000000
+      internalID: -4746516833801783231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_17
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151870bba75109b30800000000000000
+      internalID: 4291954061752107345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 10
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69a3134dff963870800000000000000
+      internalID: 8662286843394632046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_19
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffdec9e19c6eb450800000000000000
+      internalID: 6106437518709678071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 11
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3c25aba9f2d58f0800000000000000
+      internalID: -550231237871877213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aef358a15e71440800000000000000
+      internalID: 4906642221110913586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_22
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe01a9ad56fc78b0800000000000000
+      internalID: -5152972991480394051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 11
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b7d23f8fb8b0e20800000000000000
+      internalID: 3317899451836496742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_24
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f45f17aa70d6c7b0800000000000000
+      internalID: -5204243094171593479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_25
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbc933b880af3e40800000000000000
+      internalID: 5638401767474056149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_26
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81721612a391cc10800000000000000
+      internalID: 2072099627931431307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_27
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc289d318320d870800000000000000
+      internalID: 8705497117698305209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b70d1fe4f354d80800000000000000
+      internalID: -8267131932671706259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5a00a791b9a79a0800000000000000
+      internalID: -6234500200417679948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_30
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b668bb6645d5cff0800000000000000
+      internalID: -16372525194254663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot-idle animation_31
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba99933b9cd3b110800000000000000
+      internalID: 1275605678619728561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      robot-idle animation_0: 8068791841024027074
+      robot-idle animation_1: -4769084694470744860
+      robot-idle animation_10: -5428569660986964001
+      robot-idle animation_11: -6928868252941624464
+      robot-idle animation_12: 5900293239790181728
+      robot-idle animation_13: -7244492131535151108
+      robot-idle animation_14: -8711145227511845654
+      robot-idle animation_15: -8138728706179446112
+      robot-idle animation_16: -4746516833801783231
+      robot-idle animation_17: 4291954061752107345
+      robot-idle animation_18: 8662286843394632046
+      robot-idle animation_19: 6106437518709678071
+      robot-idle animation_2: 4823201279754113183
+      robot-idle animation_20: -550231237871877213
+      robot-idle animation_21: 4906642221110913586
+      robot-idle animation_22: -5152972991480394051
+      robot-idle animation_23: 3317899451836496742
+      robot-idle animation_24: -5204243094171593479
+      robot-idle animation_25: 5638401767474056149
+      robot-idle animation_26: 2072099627931431307
+      robot-idle animation_27: 8705497117698305209
+      robot-idle animation_28: -8267131932671706259
+      robot-idle animation_29: -6234500200417679948
+      robot-idle animation_3: -694900389748970891
+      robot-idle animation_30: -16372525194254663
+      robot-idle animation_31: 1275605678619728561
+      robot-idle animation_4: 2697402497312070416
+      robot-idle animation_5: -6446317500951947468
+      robot-idle animation_6: -3713113593307596963
+      robot-idle animation_7: 4464013176638719241
+      robot-idle animation_8: 1698737585522107593
+      robot-idle animation_9: -6135923154228995421
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
