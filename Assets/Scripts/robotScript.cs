@@ -102,6 +102,7 @@ public class robotScript : MonoBehaviour
         else if (collision.gameObject.CompareTag("Cookie"))
         {
             logic.RecoverHealth(logic.gainedCookieHealth);
+            logic.score++;
         }
         else if (collision.gameObject.CompareTag("Energy"))
         {
