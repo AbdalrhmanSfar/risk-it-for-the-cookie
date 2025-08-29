@@ -884,14 +884,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebdbee5ed02614841a50aed9fc267e99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logic: {fileID: 1789329510}
   fallingStuffs:
   - {fileID: 1685723403945425517, guid: 6161e1650a9482e4f8c3a4d7e7c36e50, type: 3}
   - {fileID: 1685723403945425517, guid: c80664e3f18e4174b8395d67100293b5, type: 3}
   - {fileID: 1685723403945425517, guid: 1b9bde6402df86b4f978544600023692, type: 3}
-  spawningChances: 1e0000001e0000001e0000000a000000
+  spawningChances: 320000001e0000000a0000000a000000
   leftMostSpawningPoint: {fileID: 959262219}
   rightMostSpawningPoint: {fileID: 1646192294}
-  spawnRate: 1
 --- !u!1 &1646192293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,17 +1112,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 1433617847}
   gainedMalwareDamage: 20
-  gainedCookieHealth: 10
+  gainedCookieHealth: 1
   gainedEnergyCharge: 10
   maxHealth: 100
   maxEnergy: 100
-  energyNeededforDash: 15
+  energyNeededforDash: 30
   healthLerpSpeed: 0.05
   healthLerpThreshold: 1
   energyLerpSpeed: 0.05
   energyLerpThreshold: 1
   score: 0
-  fallingStuffSpeed: 1
+  fallingStuffSpeed: 5
   gameStarted: 0
   startDuration: 3
   hurtDuration: 1
@@ -1667,7 +1667,7 @@ MonoBehaviour:
   rigidBody: {fileID: 4418839968006007077}
   animator: {fileID: 4783254000662309122}
   normalMove: 7.5
-  dashMove: 16
+  dashMove: 20
   jumpHeight: 15
   logic: {fileID: 1789329510}
 --- !u!114 &3124941294408997056
@@ -1864,10 +1864,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 20
   m_LinearDamping: 1
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 7
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1907,7 +1907,7 @@ Transform:
   m_GameObject: {fileID: 2142570530572137843}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15, y: -4.05, z: 0}
+  m_LocalPosition: {x: -1.11, y: -3.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

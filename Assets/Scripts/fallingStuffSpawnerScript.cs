@@ -2,30 +2,28 @@ using UnityEngine;
 
 public class fallingStuffSpawnerScript : MonoBehaviour
 {
+    public LogicScript logic;
     private float timer = 0;
     public GameObject[] fallingStuffs;
     public int[] spawningChances; // LAST ARRAY ELEMENT IS ALWAYS CONSIDERED THE CHANCE FOR "NO SPAWN", assign the rest in the correct order you want with the fallingStuffs array
     // for {malware,cookie,energy,none}{30,30,30,10}: 1->30 is malware, 31->60 is cookie, 61->90 is energy, 91->100 is none
     public Transform leftMostSpawningPoint;
     public Transform rightMostSpawningPoint;
-    public float spawnRate = 1;
-    private float harderTimer = 0;
+    private float spawnRate;
+    private float spawnDelay;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime; harderTimer += Time.deltaTime;
-        if (harderTimer > 8)
-        {
-            spawnRate -= 0.1f; if (spawnRate < 0.2) spawnRate = 0.2f;
-            harderTimer = 0;
-        }
-        if (timer > spawnRate)
+        spawnRate = logic.score / 5f + 1;
+        spawnDelay = 1 / spawnRate;
+        timer += Time.deltaTime;
+        if (timer > spawnDelay)
         {
             int sum = 0;
             for (int i = 0; i < spawningChances.Length; i++)
