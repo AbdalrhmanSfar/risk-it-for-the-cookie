@@ -36,7 +36,6 @@ public class robotScript : MonoBehaviour
         animator.SetBool("isAlive", logic.alive);
         animator.SetBool("isJumping", logic.isJumping);
         animator.SetBool("isWalking", logic.isWalking);
-        //if (logic.health <= 0) alive = false; ;
         if (rigidBody.linearVelocity.x < 14 && rigidBody.linearVelocity.x > -14 && logic.ifDash)
         {
             rigidBody.linearVelocity = new Vector3(0, 0, 0);
@@ -92,7 +91,7 @@ public class robotScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Malware"))
+        if (collision.gameObject.CompareTag("Malware") && !logic.ifDash)
         {
             if (logic.isHurt)
                 return;
@@ -103,6 +102,7 @@ public class robotScript : MonoBehaviour
         {
             logic.RecoverHealth(logic.gainedCookieHealth);
             logic.score++;
+            logic.fallingStuffSpeed += 0.05f;
         }
         else if (collision.gameObject.CompareTag("Energy"))
         {
