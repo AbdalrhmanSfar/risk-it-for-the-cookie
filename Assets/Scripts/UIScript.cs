@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -71,4 +72,6 @@ public class UIScript : MonoBehaviour
         score = logic.score;
         scoreText.GetComponent<Text>().text = "SCORE: " + score.ToString();
     }
+
+
 }
