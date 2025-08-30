@@ -2,17 +2,18 @@ using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 using static Unity.Mathematics.math;
+using UnityEngine.SceneManagement;
 
 public class LogicScript : MonoBehaviour
 {
     public GameObject spawner;
     // edit the variables on this script/this object only
-    public float gainedMalwareDamage = 20;
-    public float gainedCookieHealth = 10;
-    public float gainedEnergyCharge = 10;
-    public float maxHealth = 100;
+    public float gainedMalwareDamage;
+    public float gainedCookieHealth;
+    public float gainedEnergyCharge;
+    public float maxHealth;
     private float health; // made private because we want to edit it exclusively from the functions
-    public float maxEnergy = 100;
+    public float maxEnergy;
     private float energy; // made private because we want to edit it exclusively from the functions
     public float energyNeededforDash;
     public float healthLerpSpeed;
@@ -33,7 +34,8 @@ public class LogicScript : MonoBehaviour
     public float storeSpeed; // to freeze stuff when the game is paused 
     public GameObject pauseScreen;
     private bool paused = false;
-    public GameObject settingsScreen; 
+    public GameObject settingsScreen;
+    public GameObject gameOverScreen;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -55,7 +57,12 @@ public class LogicScript : MonoBehaviour
             else
                 startTimer += Time.deltaTime;
         }
-        if (Input.GetKeyDown(KeyCode.Escape)&& !paused) { pause();  }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!paused) { pause(); }
+            else { resume(); }
+        }
+
     }
 
     public float GetHealth()
@@ -70,7 +77,7 @@ public class LogicScript : MonoBehaviour
     public void TakeDamage(float amount)
     {
         health = max(0f, health - amount);
-        health = min(100f, health);
+        health = min(maxHealth, health);
         if (health == 0)
         {
             GameOver();
@@ -79,19 +86,19 @@ public class LogicScript : MonoBehaviour
 
     public void RecoverHealth(float amount)
     {
-        health = min(100f, health + amount);
+        health = min(maxHealth, health + amount);
         health = max(0f, health);
     }
 
     public void DrainEnergy(float amount)
     {
-        energy = min(100f, energy - amount);
+        energy = min(maxEnergy, energy - amount);
         energy = max(0f, energy);
     }
 
     public void ChargeEnergy(float amount)
     {
-        energy = min(100f, energy + amount);
+        energy = min(maxEnergy, energy + amount);
         energy = max(0f, energy);
     }
 
@@ -101,30 +108,45 @@ public class LogicScript : MonoBehaviour
         fallingStuffSpeed = 0;
         spawner.SetActive(false);
         alive = false;
+        gameOverScreen.SetActive(true);
     }
 
-    public void pause() {
+    public void pause()
+    {
         Debug.Log("Pause Screen");
-        storeSpeed = fallingStuffSpeed; fallingStuffSpeed = 0;
-        spawner.SetActive(false);
-        alive = false; pauseScreen.SetActive(true);
+        pauseScreen.SetActive(true);
+        Time.timeScale = 0f;
         paused = true;
     }
 
-    public void resume() {
+    public void resume()
+    {
         Debug.Log("Resume Game");
-        fallingStuffSpeed = storeSpeed;
-        spawner.SetActive(true);  alive = true;
         pauseScreen.SetActive(false);
+        Time.timeScale = 1f;
         paused = false;
     }
 
-    public void settings() {
-        pauseScreen.SetActive(false);
-        settingsScreen.SetActive(true); 
+    public void restart()
+    {
+        Debug.Log("Restart Game");
+        SceneManager.LoadScene("GameScene");
     }
-    public void settingBackButton() {
+
+    public void BackToMenu()
+    {
+        Debug.Log("Back to menu");
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
+    public void settings()
+    {
+        pauseScreen.SetActive(false);
+        settingsScreen.SetActive(true);
+    }
+    public void settingBackButton()
+    {
         settingsScreen.SetActive(false);
-        pauseScreen.SetActive(true); 
+        pauseScreen.SetActive(true);
     }
 }

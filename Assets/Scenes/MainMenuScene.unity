@@ -2611,7 +2611,7 @@ RectTransform:
   m_GameObject: {fileID: 916494305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1335426503}
@@ -2623,7 +2623,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -686, y: 245.55}
+  m_AnchoredPosition: {x: -484.5, y: 283.9}
   m_SizeDelta: {x: 1190, y: 640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &916494307
@@ -2842,7 +2842,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 7c69c3e41ef5da14e9cd91ee7944a38d, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 9d9d8cdacf0f0284dbd6ca0ea55b31bb, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -4076,7 +4076,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 7c69c3e41ef5da14e9cd91ee7944a38d, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 9d9d8cdacf0f0284dbd6ca0ea55b31bb, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -4340,7 +4340,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 874, y: -395}
+  m_AnchoredPosition: {x: 730, y: -475}
   m_SizeDelta: {x: 380, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1787555091
@@ -4410,7 +4410,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 7c69c3e41ef5da14e9cd91ee7944a38d, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 9d9d8cdacf0f0284dbd6ca0ea55b31bb, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -5668,7 +5668,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 7c69c3e41ef5da14e9cd91ee7944a38d, type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 9d9d8cdacf0f0284dbd6ca0ea55b31bb, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}

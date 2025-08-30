@@ -62,7 +62,7 @@ public class UIScript : MonoBehaviour
             energySlider.value = energy;
         // score counter ------
         score = logic.score;
-        scoreText.GetComponent<Text>().text = "SCORE: " + score.ToString();
+        scoreText.GetComponent<Text>().text = score.ToString();
     }
 
 
