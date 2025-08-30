@@ -1340,6 +1340,8 @@ MonoBehaviour:
   pauseScreen: {fileID: 6562886753334447659}
   settingsScreen: {fileID: 1578031477225689681}
   gameOverScreen: {fileID: 7483375038297983463}
+  destroyAllMalware: 0
+  stopDestroying: 0
 --- !u!4 &1789329511
 Transform:
   m_ObjectHideFlags: 0
@@ -1828,7 +1830,7 @@ MonoBehaviour:
   animator: {fileID: 4783254000662309122}
   normalMove: 7.5
   dashMove: 20
-  jumpHeight: 15
+  jumpHeight: 23
   logic: {fileID: 1789329510}
 --- !u!224 &3259567332981259243 stripped
 RectTransform:
