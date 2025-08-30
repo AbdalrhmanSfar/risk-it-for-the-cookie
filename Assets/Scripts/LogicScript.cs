@@ -39,7 +39,7 @@ public class LogicScript : MonoBehaviour
     private bool paused = false;
     public GameObject settingsScreen;
     public GameObject gameOverScreen;
-
+    public GameObject quitConfirmScreen;
     public bool destroyAllMalware = false;
     public float stopDestroying = 0;
 
@@ -167,5 +167,13 @@ public class LogicScript : MonoBehaviour
     {
         settingsScreen.SetActive(false);
         pauseScreen.SetActive(true);
+    }
+    public void ShowQuitConfirm()
+    {
+        quitConfirmScreen.SetActive(true);
+    }
+    public void QuitCancelButton()
+    {
+        quitConfirmScreen.SetActive(false);
     }
 }
