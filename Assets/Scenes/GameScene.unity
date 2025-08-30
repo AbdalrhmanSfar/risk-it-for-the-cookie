@@ -1489,7 +1489,8 @@ MonoBehaviour:
   - {fileID: 1685723403945425517, guid: 6161e1650a9482e4f8c3a4d7e7c36e50, type: 3}
   - {fileID: 1685723403945425517, guid: c80664e3f18e4174b8395d67100293b5, type: 3}
   - {fileID: 1685723403945425517, guid: 1b9bde6402df86b4f978544600023692, type: 3}
-  spawningChances: 320000001e0000000a0000000a000000
+  - {fileID: 5641339429517537393, guid: c62821ba1208b914ba5b42cdd66f60d1, type: 3}
+  spawningChances: 320000001e0000000a0000000100000009000000
   leftMostSpawningPoint: {fileID: 959262219}
   rightMostSpawningPoint: {fileID: 1646192294}
 --- !u!1 &1646192293
@@ -1742,6 +1743,8 @@ MonoBehaviour:
   storeSpeed: 0
   pauseScreen: {fileID: 1178932604}
   settingsScreen: {fileID: 618284039}
+  destroyAllMalware: 0
+  stopDestroying: 0
 --- !u!4 &1789329511
 Transform:
   m_ObjectHideFlags: 0
