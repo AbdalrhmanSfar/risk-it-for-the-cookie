@@ -1,8 +1,9 @@
+using Dan.Main;
 using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
-using static Unity.Mathematics.math;
 using UnityEngine.SceneManagement;
+using static Unity.Mathematics.math;
 
 public class LogicScript : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class LogicScript : MonoBehaviour
     public float energyLerpSpeed;
     public float energyLerpThreshold;
     public int score = 0;
+    public int Highscore;
+    private string userName;
     public float fallingStuffSpeed;
     public bool gameStarted = false;
     private float startTimer = 0;
@@ -45,6 +48,8 @@ public class LogicScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Highscore = PlayerPrefs.GetInt("Highscore");
+        userName = PlayerPrefs.GetString("Name");
         health = maxHealth;
         energy = maxEnergy;
     }
@@ -115,6 +120,8 @@ public class LogicScript : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("GAME OVER!");
+        Highscore = max(Highscore, score);
+        Leaderboards.Cookie.UploadNewEntry(userName, Highscore);
         fallingStuffSpeed = 0;
         spawner.SetActive(false);
         alive = false;
@@ -145,6 +152,8 @@ public class LogicScript : MonoBehaviour
 
     public void BackToMenu()
     {
+        Highscore = max(Highscore, score);
+        Leaderboards.Cookie.UploadNewEntry(userName, Highscore);
         Debug.Log("Back to menu");
         SceneManager.LoadScene("MainMenuScene");
     }

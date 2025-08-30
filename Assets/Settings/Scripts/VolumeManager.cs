@@ -12,22 +12,13 @@ public class VolumeManager : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("musicVolume"))
-        {
-            LoadVolume();
-        }
-        else
-        {
-            SetMasterVolume();
-            SetSFXVolume();
-            SetMusicVolume();
-        }
+        LoadVolume();
     }
     public void SetMasterVolume()
     {
         float volume = Masterslider.value;
         Master.SetFloat("MasterVol", Mathf.Log10(volume)*20);
-        PlayerPrefs.SetFloat("masterVolume", volume);
+        PlayerPrefs.SetFloat("MasterVolume", volume);
     }
     public void SetSFXVolume()
     {
@@ -42,10 +33,11 @@ public class VolumeManager : MonoBehaviour
         PlayerPrefs.SetFloat("MusicVolume", volume);
     }
 
-    private void LoadVolume()
+    public void LoadVolume()
     {
-        Masterslider.value = PlayerPrefs.GetFloat("musicVolume");
-        SFXslider.value = PlayerPrefs.GetFloat("SFXVolume");
+        Masterslider.value = PlayerPrefs.GetFloat("MasterVolume", 100);
+        Musicslider.value = PlayerPrefs.GetFloat("MusicVolume", 100);
+        SFXslider.value = PlayerPrefs.GetFloat("SFXVolume", 100);
         SetMasterVolume();
         SetSFXVolume();
         SetMusicVolume();
