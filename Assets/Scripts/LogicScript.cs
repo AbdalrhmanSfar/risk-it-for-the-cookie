@@ -1,3 +1,4 @@
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.Rendering;
 using static Unity.Mathematics.math;
@@ -29,6 +30,10 @@ public class LogicScript : MonoBehaviour
     public bool alive = true;
     public bool isJumping = false;
     public bool isWalking = false;
+    public float storeSpeed; // to freeze stuff when the game is paused 
+    public GameObject pauseScreen;
+    private bool paused = false;
+    public GameObject settingsScreen; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,8 +55,8 @@ public class LogicScript : MonoBehaviour
             else
                 startTimer += Time.deltaTime;
         }
+        if (Input.GetKeyDown(KeyCode.Escape)&& !paused) { pause();  }
     }
-
 
     public float GetHealth()
     {
@@ -98,4 +103,28 @@ public class LogicScript : MonoBehaviour
         alive = false;
     }
 
+    public void pause() {
+        Debug.Log("Pause Screen");
+        storeSpeed = fallingStuffSpeed; fallingStuffSpeed = 0;
+        spawner.SetActive(false);
+        alive = false; pauseScreen.SetActive(true);
+        paused = true;
+    }
+
+    public void resume() {
+        Debug.Log("Resume Game");
+        fallingStuffSpeed = storeSpeed;
+        spawner.SetActive(true);  alive = true;
+        pauseScreen.SetActive(false);
+        paused = false;
+    }
+
+    public void settings() {
+        pauseScreen.SetActive(false);
+        settingsScreen.SetActive(true); 
+    }
+    public void settingBackButton() {
+        settingsScreen.SetActive(false);
+        pauseScreen.SetActive(true); 
+    }
 }
