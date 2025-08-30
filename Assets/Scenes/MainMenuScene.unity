@@ -647,8 +647,8 @@ MonoBehaviour:
   settingsPanel: {fileID: 338866496}
   CreditsPanel: {fileID: 1244961926}
   LeaderBoardPanel: {fileID: 240352149}
-  nameField: {fileID: 0}
-  nameFieldObject: {fileID: 0}
+  nameField: {fileID: 1828823886}
+  nameFieldObject: {fileID: 1828823884}
 --- !u!1 &189976272
 GameObject:
   m_ObjectHideFlags: 0

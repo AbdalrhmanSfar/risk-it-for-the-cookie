@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 1888cb5a7e25fb8489db59fa3d863c5e
+guid: 2e3d1bdd36e89264183d8c4c082ef011
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2559281891656049083
-    second: HealthBarBorders_0
+      213: -7223805239167763629
+    second: Wifi bar full_0
+  - first:
+      213: 8207425400622730137
+    second: Wifi bar full_1
+  - first:
+      213: 3755724913504175408
+    second: Wifi bar full_2
+  - first:
+      213: -378038332902328991
+    second: Wifi bar full_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HealthBarBorders_0
+      name: Wifi bar full_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 54
-        height: 14
+        y: 13
+        width: 36
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54e50cfddaa9b7cd0800000000000000
-      internalID: -2559281891656049083
+      spriteID: 35bbcc88863efbb90800000000000000
+      internalID: -7223805239167763629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi bar full_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bc2a4cae1a6e170800000000000000
+      internalID: 8207425400622730137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi bar full_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035408ff8e30f1430800000000000000
+      internalID: 3755724913504175408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi bar full_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16530ef9320f0caf0800000000000000
+      internalID: -378038332902328991
       vertices: []
       indices: 
       edges: []
@@ -151,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HealthBarBorders_0: -2559281891656049083
+      Wifi bar full_0: -7223805239167763629
+      Wifi bar full_1: 8207425400622730137
+      Wifi bar full_2: 3755724913504175408
+      Wifi bar full_3: -378038332902328991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

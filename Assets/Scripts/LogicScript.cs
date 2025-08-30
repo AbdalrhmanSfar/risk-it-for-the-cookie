@@ -10,16 +10,14 @@ public class LogicScript : MonoBehaviour
     private const string nameKey = "Name";
     // edit the variables on this script/this object only
     public string userName;
-    public float gainedMalwareDamage = 20;
-    public float gainedCookieHealth = 10;
-    public float gainedEnergyCharge = 10;
-    public float maxHealth = 100;
-    private float health; // made private because we want to edit it exclusively from the functions
-    public float maxEnergy = 100;
-    private float energy; // made private because we want to edit it exclusively from the functions
+    public float gainedMalwareDamage;
+    public float gainedCookieHealth;
+    public float gainedEnergyCharge;
+    public float maxHealth;
+    private float health; // made private because we want to edit it exclusively with the functions
+    public float maxEnergy;
+    private float energy; // made private because we want to edit it exclusively with the functions
     public float energyNeededforDash;
-    public float healthLerpSpeed;
-    public float healthLerpThreshold;
     public float energyLerpSpeed;
     public float energyLerpThreshold;
     public int score = 0, highScore;
@@ -71,7 +69,7 @@ public class LogicScript : MonoBehaviour
     public void TakeDamage(float amount)
     {
         health = max(0f, health - amount);
-        health = min(100f, health);
+        health = min(maxHealth, health);
         if (health == 0)
         {
             GameOver();
@@ -80,19 +78,19 @@ public class LogicScript : MonoBehaviour
 
     public void RecoverHealth(float amount)
     {
-        health = min(100f, health + amount);
+        health = min(maxHealth, health + amount);
         health = max(0f, health);
     }
 
     public void DrainEnergy(float amount)
     {
-        energy = min(100f, energy - amount);
+        energy = min(maxEnergy, energy - amount);
         energy = max(0f, energy);
     }
 
     public void ChargeEnergy(float amount)
     {
-        energy = min(100f, energy + amount);
+        energy = min(maxEnergy, energy + amount);
         energy = max(0f, energy);
     }
 

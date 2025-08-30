@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: fbbc80c219157514cbd5a0f8e91795be
+guid: 6b2ce02f45eb9514eae31040a5ba63f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6141189316480381530
-    second: Energy or smth_0
+      213: -1691316548610633400
+    second: Wifi less than one bar_0
+  - first:
+      213: 5060408926791117136
+    second: Wifi less than one bar_1
+  - first:
+      213: -5332451719194233704
+    second: Wifi less than one bar_2
+  - first:
+      213: 8536929769358399854
+    second: Wifi less than one bar_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Energy or smth_0
+      name: Wifi less than one bar_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 54
-        height: 14
+        y: 13
+        width: 36
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +150,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a52bc3b5523e93550800000000000000
-      internalID: 6141189316480381530
+      spriteID: 841d25d5f8c3788e0800000000000000
+      internalID: -1691316548610633400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi less than one bar_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059a9939b1f2a3640800000000000000
+      internalID: 5060408926791117136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi less than one bar_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 4
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894b187f9635ff5b0800000000000000
+      internalID: -5332451719194233704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wifi less than one bar_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6990170564497670800000000000000
+      internalID: 8536929769358399854
       vertices: []
       indices: 
       edges: []
@@ -161,7 +236,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Energy or smth_0: 6141189316480381530
+      Wifi less than one bar_0: -1691316548610633400
+      Wifi less than one bar_1: 5060408926791117136
+      Wifi less than one bar_2: -5332451719194233704
+      Wifi less than one bar_3: 8536929769358399854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
