@@ -33,7 +33,9 @@ public class LogicScript : MonoBehaviour
     public float storeSpeed; // to freeze stuff when the game is paused 
     public GameObject pauseScreen;
     private bool paused = false;
-    public GameObject settingsScreen; 
+    public GameObject settingsScreen;
+    public bool destroyAllMalware = false;
+    public float stopDestroying = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -56,6 +58,11 @@ public class LogicScript : MonoBehaviour
                 startTimer += Time.deltaTime;
         }
         if (Input.GetKeyDown(KeyCode.Escape)&& !paused) { pause();  }
+        
+        if (destroyAllMalware) {
+            stopDestroying += Time.deltaTime;
+            if (stopDestroying > 1) { destroyAllMalware = false; stopDestroying = 0; }
+        }
     }
 
     public float GetHealth()

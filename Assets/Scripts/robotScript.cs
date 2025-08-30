@@ -104,9 +104,11 @@ public class robotScript : MonoBehaviour
             logic.score++;
             logic.fallingStuffSpeed += 0.05f;
         }
-        else if (collision.gameObject.CompareTag("Energy"))
-        {
+        else if (collision.gameObject.CompareTag("Energy")) {
             logic.ChargeEnergy(logic.gainedEnergyCharge);
+        }
+        else if (collision.gameObject.CompareTag("chocoCookie")) {
+            logic.destroyAllMalware = true;
         }
         else if (collision.gameObject.CompareTag("terrain"))
         {
