@@ -14,12 +14,14 @@ public class fallingStuffSpawnerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!logic.gameStarted)
+            return;
         spawnRate = logic.score / 5f + 1;
         spawnDelay = 1 / spawnRate;
         timer += Time.deltaTime;
