@@ -11,6 +11,8 @@ TagManager:
   - Cookie
   - Energy
   - mainScreenCanvas
+  - chocoCookie
+  - weirdCookie
   layers:
   - Default
   - TransparentFX

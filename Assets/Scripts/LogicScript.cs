@@ -37,6 +37,9 @@ public class LogicScript : MonoBehaviour
     public GameObject settingsScreen;
     public GameObject gameOverScreen;
 
+    public bool destroyAllMalware = false;
+    public float stopDestroying = 0;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -63,6 +66,11 @@ public class LogicScript : MonoBehaviour
             else { resume(); }
         }
 
+        if (destroyAllMalware)
+        {
+            stopDestroying += Time.deltaTime;
+            if (stopDestroying > 1) { destroyAllMalware = false; stopDestroying = 0; }
+        }
     }
 
     public float GetHealth()

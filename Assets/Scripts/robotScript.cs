@@ -9,7 +9,9 @@ public class robotScript : MonoBehaviour
     public float dashMove = 3;
     public float jumpHeight = 5;
     private float hurtTimer = 0;
-
+    private bool blueCookieActve = false;
+    private bool noJumpDash = false;
+    private float blueCookieTimer = 0;
 
     public LogicScript logic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,8 +21,7 @@ public class robotScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         if (logic.isHurt)
         {
             if (hurtTimer >= logic.hurtDuration)
@@ -57,13 +58,13 @@ public class robotScript : MonoBehaviour
         }
         if (!(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && !(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
             logic.isWalking = false;
-        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y < -3.3)
+        if (Input.GetKeyDown(KeyCode.Space) && !logic.isJumping && !noJumpDash)
         {
             rigidBody.linearVelocity = Vector3.up * jumpHeight;
             logic.isJumping = true;
         }
         // dashing 
-        if (Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Z))
+        if ((Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Z)) && !noJumpDash)
         {
             if (logic.GetEnergy() >= logic.energyNeededforDash)
             {
@@ -87,6 +88,14 @@ public class robotScript : MonoBehaviour
                 //idk, flash the energy bar or smth?
             }
         }
+
+        if (blueCookieActve) {
+            blueCookieTimer += Time.deltaTime; 
+            if (blueCookieTimer > 3) {
+                blueCookieTimer = 0; blueCookieActve = false;
+                noJumpDash = false;  normalMove = 7.5f;
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -104,9 +113,15 @@ public class robotScript : MonoBehaviour
             logic.score++;
             logic.fallingStuffSpeed += 0.05f;
         }
-        else if (collision.gameObject.CompareTag("Energy"))
-        {
+        else if (collision.gameObject.CompareTag("Energy")) {
             logic.ChargeEnergy(logic.gainedEnergyCharge);
+        }
+        else if (collision.gameObject.CompareTag("chocoCookie")) {
+            logic.destroyAllMalware = true;
+        }
+        else if (collision.gameObject.CompareTag("weirdCookie")) {
+            blueCookieActve = true;  noJumpDash = true;
+            normalMove = 1.5f;
         }
         else if (collision.gameObject.CompareTag("terrain"))
         {
