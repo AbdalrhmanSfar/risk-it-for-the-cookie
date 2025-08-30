@@ -40,6 +40,8 @@ public class LogicScript : MonoBehaviour
     public bool destroyAllMalware = false;
     public float stopDestroying = 0;
 
+    public float chocoAntiVirusDuration;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -62,14 +64,14 @@ public class LogicScript : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (!paused) { pause(); }
-            else { resume(); }
+            if (!paused) { Pause(); }
+            else { Resume(); }
         }
 
         if (destroyAllMalware)
         {
             stopDestroying += Time.deltaTime;
-            if (stopDestroying > 1) { destroyAllMalware = false; stopDestroying = 0; }
+            if (stopDestroying > chocoAntiVirusDuration) { destroyAllMalware = false; stopDestroying = 0; }
         }
     }
 
@@ -119,7 +121,7 @@ public class LogicScript : MonoBehaviour
         gameOverScreen.SetActive(true);
     }
 
-    public void pause()
+    public void Pause()
     {
         Debug.Log("Pause Screen");
         pauseScreen.SetActive(true);
@@ -127,7 +129,7 @@ public class LogicScript : MonoBehaviour
         paused = true;
     }
 
-    public void resume()
+    public void Resume()
     {
         Debug.Log("Resume Game");
         pauseScreen.SetActive(false);
@@ -135,7 +137,7 @@ public class LogicScript : MonoBehaviour
         paused = false;
     }
 
-    public void restart()
+    public void Restart()
     {
         Debug.Log("Restart Game");
         SceneManager.LoadScene("GameScene");
@@ -147,12 +149,12 @@ public class LogicScript : MonoBehaviour
         SceneManager.LoadScene("MainMenuScene");
     }
 
-    public void settings()
+    public void Settings()
     {
         pauseScreen.SetActive(false);
         settingsScreen.SetActive(true);
     }
-    public void settingBackButton()
+    public void SettingsBackButton()
     {
         settingsScreen.SetActive(false);
         pauseScreen.SetActive(true);
