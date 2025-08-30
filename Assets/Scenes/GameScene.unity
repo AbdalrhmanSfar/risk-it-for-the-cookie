@@ -689,6 +689,14 @@ PrefabInstance:
       value: 880
       objectReference: {fileID: 0}
     - target: {fileID: 2347440282220023838, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347440282220023838, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2347440282220023838, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1640,17 +1648,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 1433617847}
-  userName: 
   gainedMalwareDamage: 1
   gainedCookieHealth: 0.2
   gainedEnergyCharge: 10
   maxHealth: 4
   maxEnergy: 100
   energyNeededforDash: 30
+  healthLerpSpeed: 0
+  healthLerpThreshold: 0
   energyLerpSpeed: 0.05
   energyLerpThreshold: 1
   score: 0
-  highScore: 0
   fallingStuffSpeed: 5
   gameStarted: 0
   startDuration: 3
