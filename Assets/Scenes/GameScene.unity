@@ -644,6 +644,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -92.67651
       objectReference: {fileID: 0}
+    - target: {fileID: 525561934739215084, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 525561934739215084, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 618284044}
+    - target: {fileID: 525561934739215084, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSFXVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 525561934739215084, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ingameSoundsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 525561934739215084, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 702935641716684329, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -756,6 +776,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -187.67651
       objectReference: {fileID: 0}
+    - target: {fileID: 4100050376090118865, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100050376090118865, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 618284044}
+    - target: {fileID: 4100050376090118865, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMasterVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100050376090118865, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ingameSoundsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100050376090118865, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4602540876175513255, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -774,6 +814,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4602540876175513255, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079076128190173622, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079076128190173622, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 618284044}
+    - target: {fileID: 5079076128190173622, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079076128190173622, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ingameSoundsScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5079076128190173622, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5209222876337488882, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
@@ -859,7 +919,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1578031477310974031, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 618284044}
   m_SourcePrefab: {fileID: 100100000, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
 --- !u!1 &519420028
 GameObject:
@@ -1008,6 +1071,22 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2347440282220023838, guid: 88ec0375dc9da8c47beef9a07617fe77, type: 3}
   m_PrefabInstance: {fileID: 502102558}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &618284044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618284039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c0491d55c16944194a0224d4a94702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Master: {fileID: 0}
+  Masterslider: {fileID: 0}
+  Musicslider: {fileID: 0}
+  SFXslider: {fileID: 0}
 --- !u!1 &698353666
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,17 +1719,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawner: {fileID: 1433617847}
-  userName: 
   gainedMalwareDamage: 1
   gainedCookieHealth: 0.2
   gainedEnergyCharge: 10
   maxHealth: 4
   maxEnergy: 100
   energyNeededforDash: 30
+  healthLerpSpeed: 0
+  healthLerpThreshold: 0
   energyLerpSpeed: 0.05
   energyLerpThreshold: 1
   score: 0
-  highScore: 0
   fallingStuffSpeed: 5
   gameStarted: 0
   startDuration: 3
@@ -2036,7 +2115,7 @@ MonoBehaviour:
   animator: {fileID: 4783254000662309122}
   normalMove: 7.5
   dashMove: 20
-  jumpHeight: 15
+  jumpHeight: 23
   logic: {fileID: 1789329510}
 --- !u!222 &3590452166847589783
 CanvasRenderer:
