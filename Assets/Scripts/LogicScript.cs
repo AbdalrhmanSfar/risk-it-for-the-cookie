@@ -8,6 +8,8 @@ using static Unity.Mathematics.math;
 public class LogicScript : MonoBehaviour
 {
     public GameObject spawner;
+    [SerializeField] private AudioSource musicSource;
+
     // edit the variables on this script/this object only
     public float gainedMalwareDamage;
     public float gainedCookieHealth;
@@ -57,6 +59,7 @@ public class LogicScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        musicSource.pitch = 1 + 0.001f * score;
         if (!gameStarted)
         {
             if (startTimer >= startDuration)
