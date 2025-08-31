@@ -120,6 +120,7 @@ public class LogicScript : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("GAME OVER!");
+        SFXScript.instance.deathSFX();
         Highscore = max(Highscore, score);
         Leaderboards.Cookie.UploadNewEntry(userName, Highscore);
         fallingStuffSpeed = 0;
@@ -140,6 +141,7 @@ public class LogicScript : MonoBehaviour
     {
         Debug.Log("Resume Game");
         pauseScreen.SetActive(false);
+        settingsScreen.SetActive(false);
         Time.timeScale = 1f;
         paused = false;
     }
@@ -160,7 +162,6 @@ public class LogicScript : MonoBehaviour
 
     public void Settings()
     {
-        pauseScreen.SetActive(false);
         settingsScreen.SetActive(true);
     }
     public void SettingsBackButton()

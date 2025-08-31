@@ -17,7 +17,7 @@ public class robotScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        SFXScript.instance.awakeSFX();
     }
 
     // Update is called once per frame
@@ -70,6 +70,7 @@ public class robotScript : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
                 {
+                    SFXScript.instance.dashSFX();
                     rigidBody.linearVelocity = Vector3.left * dashMove;
                     logic.DrainEnergy(logic.energyNeededforDash);
                     transform.rotation = Quaternion.Euler(0f, 180f, 0f);
@@ -77,6 +78,7 @@ public class robotScript : MonoBehaviour
                 }
                 else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
                 {
+                    SFXScript.instance.dashSFX();
                     rigidBody.linearVelocity = Vector3.right * dashMove;
                     logic.DrainEnergy(logic.energyNeededforDash);
                     transform.rotation = Quaternion.Euler(0f, 0f, 0f);
@@ -106,22 +108,27 @@ public class robotScript : MonoBehaviour
                 return;
             logic.TakeDamage(logic.gainedMalwareDamage);
             logic.isHurt = true;
+            SFXScript.instance.hit1SFX();
         }
         else if (collision.gameObject.CompareTag("Cookie"))
         {
             logic.RecoverHealth(logic.gainedCookieHealth);
             logic.score++;
             logic.fallingStuffSpeed += 0.05f;
+            SFXScript.instance.boopSFX();
         }
         else if (collision.gameObject.CompareTag("Energy")) {
             logic.ChargeEnergy(logic.gainedEnergyCharge);
+            SFXScript.instance.redbullSFX();
         }
         else if (collision.gameObject.CompareTag("chocoCookie")) {
             logic.destroyAllMalware = true;
+            SFXScript.instance.chocoSFX();
         }
         else if (collision.gameObject.CompareTag("weirdCookie")) {
             blueCookieActve = true;  noJumpDash = true;
             normalMove = 1.5f;
+            SFXScript.instance.hit2SFX();
         }
         else if (collision.gameObject.CompareTag("terrain"))
         {
