@@ -441,8 +441,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 496263188}
-          m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+        - m_Target: {fileID: 496263190}
+          m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
           m_MethodName: slideSFX2
           m_Mode: 1
           m_Arguments:
@@ -768,8 +768,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -1200,8 +1200,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -1756,8 +1756,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -1966,7 +1966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496263187}
   - component: {fileID: 496263189}
-  - component: {fileID: 496263188}
+  - component: {fileID: 496263190}
   m_Layer: 0
   m_Name: SFX
   m_TagString: Untagged
@@ -1989,24 +1989,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &496263188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496263186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b7e7723282c964793d956496ff5e14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SFXObject: {fileID: 2188652247472487539, guid: 7905437ccb139644798c91efc71d9234, type: 3}
-  clickSound: {fileID: 8300000, guid: 21c5754a07147484a8d3181ec21738f4, type: 3}
-  boopSound: {fileID: 8300000, guid: 2013c31bef8959a42ba778d989ec3e90, type: 3}
-  Masterslider: {fileID: 893709681}
-  MusicSlider: {fileID: 60523706}
-  SFXSlider: {fileID: 2127447793}
 --- !u!82 &496263189
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2104,6 +2086,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &496263190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496263186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ab8ac73c040ca45850f35c0f3239e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXObject: {fileID: 2188652247472487539, guid: 7905437ccb139644798c91efc71d9234, type: 3}
+  clickSound: {fileID: 8300000, guid: 21c5754a07147484a8d3181ec21738f4, type: 3}
+  boopSound: {fileID: 8300000, guid: 2013c31bef8959a42ba778d989ec3e90, type: 3}
+  Masterslider: {fileID: 893709681}
+  MusicSlider: {fileID: 60523706}
+  SFXSlider: {fileID: 2127447793}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3079,8 +3079,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 496263188}
-          m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+        - m_Target: {fileID: 496263190}
+          m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
           m_MethodName: slideSFX1
           m_Mode: 1
           m_Arguments:
@@ -3376,8 +3376,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -3692,8 +3692,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -4654,8 +4654,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -4910,8 +4910,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -5147,7 +5147,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 34.37, y: 0}
+  m_AnchoredPosition: {x: 14, y: 12}
   m_SizeDelta: {x: 1190, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828823886
@@ -5229,7 +5229,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
+        m_MethodName: boopSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5887,8 +5899,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -6181,8 +6193,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 496263188}
-        m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+      - m_Target: {fileID: 496263190}
+        m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
         m_MethodName: clickSFX
         m_Mode: 1
         m_Arguments:
@@ -6352,8 +6364,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 496263188}
-          m_TargetAssemblyTypeName: SFXScript, Assembly-CSharp
+        - m_Target: {fileID: 496263190}
+          m_TargetAssemblyTypeName: MenuSFXScript, Assembly-CSharp
           m_MethodName: slideSFX3
           m_Mode: 1
           m_Arguments:

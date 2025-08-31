@@ -6,7 +6,6 @@ public class SFXScript : MonoBehaviour
     public static SFXScript instance;
     public LogicScript logic;
     [SerializeField] private AudioSource SFXObject;
-    [SerializeField] private AudioSource musicSource;
     [SerializeField] private AudioClip clickSound;
     [SerializeField] private AudioClip boopSound;
     [SerializeField] private AudioClip chocoSound;
@@ -26,10 +25,7 @@ public class SFXScript : MonoBehaviour
         if (instance == null)
             instance = this;
     }
-    private void Update()
-    {
-        musicSource.pitch = 1 + 0.001f * logic.score;
-    }
+
     public void PlaySFX(AudioClip clip, Transform spawnTrans, float volume = 1, float pitch = 1)
     {
         AudioSource audioSource = Instantiate(SFXObject, spawnTrans.position, Quaternion.identity);
