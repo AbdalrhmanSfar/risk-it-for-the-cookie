@@ -2307,7 +2307,7 @@ MonoBehaviour:
   healthWifiBar: {fileID: 1877437280}
   energySlider: {fileID: 4213081907382316335}
   energyFill: {fileID: 6107249562015068448}
-  redFillMax: 15
+  redFillMax: 30
   yellowFillMax: 50
   easeEnergySlider: {fileID: 1508348638289503461}
   scoreText: {fileID: 466277348}
