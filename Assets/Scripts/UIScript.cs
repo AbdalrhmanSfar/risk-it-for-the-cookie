@@ -69,7 +69,7 @@ public class UIScript : MonoBehaviour
         }
         else if (energySlider.value > redFillMax)
         {
-            energyFill.color = new Color32(191, 131, 36, 255);
+            energyFill.color = new Color32(255, 238, 204, 255);
         }
         else
         {
