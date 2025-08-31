@@ -13,13 +13,18 @@ public class UIManager : MonoBehaviour
     public GameObject LeaderBoardPanel;
     public TMP_InputField nameField;
     public GameObject nameFieldObject;
+    public GameObject darkenerScreen;
     private const string nameKey = "Name";
     private string userName;
 
     void Start()
     {
         userName = PlayerPrefs.GetString(nameKey, "nullName");
-        if (userName == "nullName") nameFieldObject.SetActive (true);
+        if (userName == "nullName")
+        {
+            nameFieldObject.SetActive(true);
+            darkenerScreen.SetActive(true);
+        }
         Debug.Log(PlayerPrefs.GetString("Name", "nullName"));
         Debug.Log(PlayerPrefs.GetInt("Highscore", 0));
     }
@@ -67,6 +72,10 @@ public class UIManager : MonoBehaviour
     {
         PlayerPrefs.SetString(nameKey, nameField.text);
         userName = PlayerPrefs.GetString(nameKey, "nullName");
-        if (userName != "nullName") nameFieldObject.SetActive(false);
+        if (userName != "nullName")
+        {
+            nameFieldObject.SetActive(false);
+            darkenerScreen.SetActive(false);
+        }
     }
 }
