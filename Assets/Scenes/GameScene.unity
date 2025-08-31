@@ -2356,7 +2356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawner: {fileID: 1433617847}
   musicSource: {fileID: 500722992}
-  gainedMalwareDamage: 3
+  gainedMalwareDamage: 1
   gainedCookieHealth: 0.2
   gainedEnergyCharge: 15
   maxHealth: 4

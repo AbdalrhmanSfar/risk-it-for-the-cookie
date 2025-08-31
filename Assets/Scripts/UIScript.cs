@@ -11,6 +11,9 @@ public class UIScript : MonoBehaviour
     public Image healthWifiBar;
 
     public Slider energySlider;
+    public Image energyFill;
+    public float redFillMax;
+    public float yellowFillMax;
     public Slider easeEnergySlider;
     // edits to these from LogicScript only
     private float health; // edits from LogicScript only
@@ -60,6 +63,18 @@ public class UIScript : MonoBehaviour
         }
         else if (energySlider.value > energy)
             energySlider.value = energy;
+        if (energySlider.value > yellowFillMax) // should be blue
+        {
+            energyFill.color = new Color32(0, 185, 190, 255);
+        }
+        else if (energySlider.value > redFillMax)
+        {
+            energyFill.color = new Color32(191, 131, 36, 255);
+        }
+        else
+        {
+            energyFill.color = new Color32(255, 105, 115, 255);
+        }
         // score counter ------
         score = logic.score;
         scoreText.GetComponent<Text>().text = score.ToString();
