@@ -1886,7 +1886,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logic: {fileID: 1789329510}
   SFXObject: {fileID: 2188652247472487539, guid: 7905437ccb139644798c91efc71d9234, type: 3}
-  musicSource: {fileID: 500722992}
   clickSound: {fileID: 8300000, guid: 21c5754a07147484a8d3181ec21738f4, type: 3}
   boopSound: {fileID: 8300000, guid: 2013c31bef8959a42ba778d989ec3e90, type: 3}
   chocoSound: {fileID: 8300000, guid: 15bfe1559790be64084e9c64e16546e6, type: 3}
@@ -2307,6 +2306,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2e3d1bdd36e89264183d8c4c082ef011, type: 3}
   healthWifiBar: {fileID: 1877437280}
   energySlider: {fileID: 4213081907382316335}
+  energyFill: {fileID: 6107249562015068448}
+  redFillMax: 15
+  yellowFillMax: 50
   easeEnergySlider: {fileID: 1508348638289503461}
   scoreText: {fileID: 466277348}
 --- !u!4 &1717234841
