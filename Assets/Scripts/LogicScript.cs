@@ -123,6 +123,7 @@ public class LogicScript : MonoBehaviour
 
     public void GameOver()
     {
+        Cursor.visible = true;
         Debug.Log("GAME OVER!");
         SFXScript.instance.deathSFX();
         Highscore = max(Highscore, score);
