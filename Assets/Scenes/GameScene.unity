@@ -1077,7 +1077,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5, y: 0}
+  m_AnchoredPosition: {x: 10.3, y: 0}
   m_SizeDelta: {x: 10.3494, y: 10.7447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &721120041
@@ -1159,7 +1159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.5, y: 0}
+  m_AnchoredPosition: {x: -10.3, y: 0}
   m_SizeDelta: {x: 10.3494, y: 10.7447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &785848128
@@ -3073,6 +3073,7 @@ GameObject:
   - component: {fileID: 2409645337750430655}
   - component: {fileID: 3086706890012299351}
   - component: {fileID: 4783254000662309122}
+  - component: {fileID: 4783254000662309123}
   m_Layer: 0
   m_Name: robotPrefab
   m_TagString: Player
@@ -3293,6 +3294,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4783254000662309123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142570530572137843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a936c21d8f7a64b91face083df7e5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &5178168347166028351
 RectTransform:
   m_ObjectHideFlags: 0
