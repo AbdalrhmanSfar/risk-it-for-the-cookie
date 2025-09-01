@@ -159,6 +159,7 @@ public class LogicScript : MonoBehaviour
     {
         Highscore = max(Highscore, score);
         Leaderboards.Cookie.UploadNewEntry(userName, Highscore);
+        Time.timeScale = 1f; // unpause, in case paused
         Debug.Log("Back to menu");
         SceneManager.LoadScene("MainMenuScene");
     }

@@ -65,7 +65,7 @@ public class robotScript : MonoBehaviour
             logic.isJumping = true;
         }
         // dashing 
-        if ((Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.Z)) && !noJumpDash)
+        if (Input.GetKeyDown(KeyCode.W) && !noJumpDash)
         {
             if (logic.GetEnergy() >= logic.energyNeededforDash)
             {
@@ -105,9 +105,9 @@ public class robotScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Malware") && !logic.ifDash)
+        if (collision.gameObject.CompareTag("Malware"))
         {
-            if (logic.isHurt)
+            if (logic.isHurt || logic.ifDash)
                 return;
             logic.TakeDamage(logic.gainedMalwareDamage);
             logic.isHurt = true;
@@ -132,9 +132,17 @@ public class robotScript : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("weirdCookie"))
         {
+            if (logic.isHurt || logic.ifDash)
+                return;
             blueCookieActve = true; noJumpDash = true;
             normalMove = 1.5f;
             SFXScript.instance.hit2SFX();
+        }
+        else if (collision.gameObject.CompareTag("glitchyCookie"))
+        {
+            float rightSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height)).x; // in world units
+            float leftSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x; // in world units
+            transform.position = new Vector2(Random.Range(leftSideOfScreenX, rightSideOfScreenX), transform.position.y);
         }
         else if (collision.gameObject.CompareTag("terrain"))
         {
