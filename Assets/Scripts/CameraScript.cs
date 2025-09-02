@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class CameraAspect : MonoBehaviour
 {
-    // Set your desired aspect ratio here (e.g., 16:9)
     public float targetAspect = 16.0f / 9.0f;
 
     void Start()
@@ -12,21 +11,16 @@ public class CameraAspect : MonoBehaviour
 
     void Update()
     {
-        // Optional: Re-adjust on resolution change
         AdjustCameraViewport();
     }
 
     void AdjustCameraViewport()
     {
-        // Determine the current screen aspect ratio
         float windowAspect = (float)Screen.width / (float)Screen.height;
-        // Calculate the scale height based on the target aspect
         float scaleHeight = windowAspect / targetAspect;
 
-        // Get the camera component
         Camera camera = GetComponent<Camera>();
 
-        // If the window is wider than the target aspect
         if (scaleHeight < 1.0f)
         {
             Rect rect = camera.rect;
@@ -36,7 +30,6 @@ public class CameraAspect : MonoBehaviour
             rect.y = (1.0f - scaleHeight) / 2.0f;
             camera.rect = rect;
         }
-        // If the window is taller than the target aspect
         else
         {
             Rect rect = camera.rect;
