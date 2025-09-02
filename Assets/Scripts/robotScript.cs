@@ -138,7 +138,7 @@ public class robotScript : MonoBehaviour
         {
             if (logic.GetEnergy() >= logic.energyNeededforDash)
             {
-                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || leftDown)
                 {
                     SFXScript.instance.dashSFX();
                     rigidBody.linearVelocity = Vector3.left * dashMove;
@@ -146,7 +146,7 @@ public class robotScript : MonoBehaviour
                     transform.rotation = Quaternion.Euler(0f, 180f, 0f);
                     logic.ifDash = true;
                 }
-                else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+                else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || rightDown)
                 {
                     SFXScript.instance.dashSFX();
                     rigidBody.linearVelocity = Vector3.right * dashMove;
