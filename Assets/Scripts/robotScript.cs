@@ -65,7 +65,7 @@ public class robotScript : MonoBehaviour
             logic.isJumping = true;
         }
         // dashing 
-        if (Input.GetKeyDown(KeyCode.W) && !noJumpDash)
+        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) && !noJumpDash)
         {
             if (logic.GetEnergy() >= logic.energyNeededforDash)
             {
@@ -85,10 +85,6 @@ public class robotScript : MonoBehaviour
                     transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                     logic.ifDash = true;
                 }
-            }
-            else
-            {
-                //idk, flash the energy bar or smth?
             }
         }
 
