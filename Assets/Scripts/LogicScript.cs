@@ -50,7 +50,6 @@ public class LogicScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Cursor.visible = false;
         Highscore = PlayerPrefs.GetInt("Highscore");
         userName = PlayerPrefs.GetString("Name");
         health = maxHealth;
@@ -123,7 +122,6 @@ public class LogicScript : MonoBehaviour
 
     public void GameOver()
     {
-        Cursor.visible = true;
         Debug.Log("GAME OVER!");
         SFXScript.instance.deathSFX();
         Highscore = max(Highscore, score);
@@ -136,7 +134,6 @@ public class LogicScript : MonoBehaviour
 
     public void Pause()
     {
-        Cursor.visible = true;
         Debug.Log("Pause Screen");
         pauseScreen.SetActive(true);
         Time.timeScale = 0f;
@@ -147,7 +144,6 @@ public class LogicScript : MonoBehaviour
     {
         Debug.Log("Resume Game");
         pauseScreen.SetActive(false);
-        Cursor.visible = false;
         quitConfirmScreen.SetActive(false);
         settingsScreen.SetActive(false);
         Time.timeScale = 1f;

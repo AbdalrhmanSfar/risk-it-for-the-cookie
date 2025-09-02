@@ -12,6 +12,7 @@ public class robotScript : MonoBehaviour
     private bool blueCookieActve = false;
     private bool noJumpDash = false;
     private float blueCookieTimer = 0;
+    public bool rightDown = false, leftDown = false, jumpDown = false, dashDown = false;
 
     public LogicScript logic;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -45,52 +46,12 @@ public class robotScript : MonoBehaviour
         }
         if (!logic.alive || !logic.gameStarted || logic.isHurt)
             return;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.position += normalMove * Time.deltaTime * Vector3.left;
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-            logic.isWalking = true;
-        }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += normalMove * Time.deltaTime * Vector3.right;
-            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-            logic.isWalking = true;
-        }
-        if (!(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && !(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || leftDown) Left();
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || rightDown) Right();
+        if (!(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || leftDown) && !(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || rightDown))
             logic.isWalking = false;
-        if (Input.GetKeyDown(KeyCode.Space) && !logic.isJumping && !noJumpDash)
-        {
-            rigidBody.linearVelocity = Vector3.up * jumpHeight;
-            logic.isJumping = true;
-        }
-        // dashing 
-        if (Input.GetKeyDown(KeyCode.W) && !noJumpDash)
-        {
-            if (logic.GetEnergy() >= logic.energyNeededforDash)
-            {
-                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-                {
-                    SFXScript.instance.dashSFX();
-                    rigidBody.linearVelocity = Vector3.left * dashMove;
-                    logic.DrainEnergy(logic.energyNeededforDash);
-                    transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-                    logic.ifDash = true;
-                }
-                else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-                {
-                    SFXScript.instance.dashSFX();
-                    rigidBody.linearVelocity = Vector3.right * dashMove;
-                    logic.DrainEnergy(logic.energyNeededforDash);
-                    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-                    logic.ifDash = true;
-                }
-            }
-            else
-            {
-                //idk, flash the energy bar or smth?
-            }
-        }
+        if (Input.GetKeyDown(KeyCode.Space)) Jump();
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift)) Dash();
 
         if (blueCookieActve)
         {
@@ -150,4 +111,68 @@ public class robotScript : MonoBehaviour
                 logic.isJumping = false;
         }
     }
+
+    public void Left()
+    {
+        transform.position += normalMove * Time.deltaTime * Vector3.left;
+        transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        logic.isWalking = true;
+    }
+    public void Right()
+    {
+        transform.position += normalMove * Time.deltaTime * Vector3.right;
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        logic.isWalking = true;
+    }
+    public void Jump()
+    {
+        if (!logic.isJumping && !noJumpDash)
+        {
+            rigidBody.linearVelocity = Vector3.up * jumpHeight;
+            logic.isJumping = true;
+        }
+    }
+    public void Dash()
+    {
+        if (!noJumpDash)
+        {
+            if (logic.GetEnergy() >= logic.energyNeededforDash)
+            {
+                if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+                {
+                    SFXScript.instance.dashSFX();
+                    rigidBody.linearVelocity = Vector3.left * dashMove;
+                    logic.DrainEnergy(logic.energyNeededforDash);
+                    transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+                    logic.ifDash = true;
+                }
+                else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+                {
+                    SFXScript.instance.dashSFX();
+                    rigidBody.linearVelocity = Vector3.right * dashMove;
+                    logic.DrainEnergy(logic.energyNeededforDash);
+                    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                    logic.ifDash = true;
+                }
+            }
+        }
+    }
+
+    public void getLeftDown()
+    {
+        leftDown = true;
+    }
+    public void getRightDown()
+    {
+        rightDown = true;
+    }
+    public void getLeftUp()
+    {
+        leftDown = false;
+    }
+    public void getRightUp()
+    {
+        rightDown = false;
+    }
+
 }
