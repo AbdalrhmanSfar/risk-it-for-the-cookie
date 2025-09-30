@@ -10,7 +10,7 @@ public class robotScript : MonoBehaviour
     public float jumpHeight = 5;
     private float hurtTimer = 0;
     private bool blueCookieActve = false;
-    private bool noJumpDash = false;
+    private bool noJump = false;
     private float blueCookieTimer = 0;
 
     public LogicScript logic;
@@ -59,13 +59,13 @@ public class robotScript : MonoBehaviour
         }
         if (!(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && !(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)))
             logic.isWalking = false;
-        if (Input.GetKeyDown(KeyCode.Space) && !logic.isJumping && !noJumpDash)
+        if (Input.GetKeyDown(KeyCode.Space) && !logic.isJumping && !noJump)
         {
             rigidBody.linearVelocity = Vector3.up * jumpHeight;
             logic.isJumping = true;
         }
         // dashing 
-        if (Input.GetKeyDown(KeyCode.W) && !noJumpDash)
+        if (Input.GetKeyDown(KeyCode.W))
         {
             if (logic.GetEnergy() >= logic.energyNeededforDash)
             {
@@ -98,7 +98,7 @@ public class robotScript : MonoBehaviour
             if (blueCookieTimer > 3)
             {
                 blueCookieTimer = 0; blueCookieActve = false;
-                noJumpDash = false; normalMove = 7.5f;
+                noJump = false; normalMove = 7.5f;
             }
         }
     }
@@ -134,7 +134,8 @@ public class robotScript : MonoBehaviour
         {
             if (logic.isHurt || logic.ifDash)
                 return;
-            blueCookieActve = true; noJumpDash = true;
+            blueCookieActve = true; noJump = true;
+            logic.score += 5;
             normalMove = 1.5f;
             SFXScript.instance.hit2SFX();
         }
@@ -143,6 +144,7 @@ public class robotScript : MonoBehaviour
             float rightSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height)).x; // in world units
             float leftSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x; // in world units
             transform.position = new Vector2(Random.Range(leftSideOfScreenX, rightSideOfScreenX), transform.position.y);
+            logic.score += 5;
         }
         else if (collision.gameObject.CompareTag("terrain"))
         {

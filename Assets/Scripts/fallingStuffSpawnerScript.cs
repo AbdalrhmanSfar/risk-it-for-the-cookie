@@ -14,7 +14,12 @@ public class fallingStuffSpawnerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        float rightSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height)).x; // in world units
+        float leftSideOfScreenX = Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x; // in world units
+        float topSideOfScreenY = Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height)).y; // in world units
 
+        leftMostSpawningPoint.transform.position = new Vector2(leftSideOfScreenX + 0.5f, topSideOfScreenY + 1);
+        rightMostSpawningPoint.transform.position = new Vector2(rightSideOfScreenX - 0.5f, topSideOfScreenY + 1);
     }
 
     // Update is called once per frame
